@@ -1,10 +1,10 @@
 body {
-      background-color: lemonchiffon;/*#e6e6e6;*/ 
+      background-color: gray; 
       color: #031B3F; 
       font-family: arial, helvetica, sans-serif; 
       padding:15px; 
       line-height:2em
- ;background-image:radial-gradient(circle, lemonchiffon, peachpuff);
+ ;background-image:radial-gradient(circle, lightgray, darkolivegreen);
 
       }
       
