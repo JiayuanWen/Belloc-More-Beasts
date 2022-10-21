@@ -1,10 +1,10 @@
 body {
-      background-color: gray; 
+      background-color: cyan; 
       color: #031B3F; 
       font-family: arial, helvetica, sans-serif; 
       padding:15px; 
       line-height:2em
- ;background-image:radial-gradient(circle, gray, darkolivegreen);
+ ;background-image:radial-gradient(circle, white, skyblue);
 
       }
       
@@ -82,15 +82,17 @@ width: 60%;}
 /* This means: style the <nav id="menu"> element. */
 
 div.button { 
-  border:2px; 
-  border-style:inset;
-  border-color:gray; 
-  padding:2vw; 
-  background-color:oldlace; 
-  color:yellow; 
-  width:10%; 
-  display:inline;
-  border-radius: 20px;
+  background-color: white; 
+  border: double black;
+  color: transparent;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: georgia;
+  cursor: grab;
+  width: 150px;
+  display: block;
  }
 /* This means: style ANY element that as an @class set to button, as in */
 /* <li class="button"> or <p class="button"> or <div class="button">. */
@@ -110,10 +112,10 @@ div.button {
   box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: palegoldenrod}
+.button:hover {background-color: transparent}
 
 .button:active {
-  background-color: lemonchiffon;
+  background-color: transparent;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -141,4 +143,3 @@ max-width:1000px;
 }
 section.textAnalysis figure figcaption {flex:1;
 ;}
-
