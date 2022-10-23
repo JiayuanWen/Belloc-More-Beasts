@@ -53,14 +53,14 @@ background-color: peachpuff
       
       
  section.Gallery  {width: 80%;
- display: flex;
+ display: block;
  justify-content:space-around;
  padding: 2vw;
  column-gap:0;}   
  section.Gallery figure {flex:1;
- background-color: lightgray;
+ /*background-color: lightgray;*/
  padding: 2vw;
- width: 50%;
+ width: 100%;
  }
 section.Gallery p.wider{flex:2;
 background-color:white;
