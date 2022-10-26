@@ -26,6 +26,7 @@ https://docs.github.com/en/repositories/creating-and-managing-repositories/cloni
 \* I'm using Linux Terminal with git built-in in my screenshot, the commands should be the same for your Git Bash.
  ![1-4](branching_tutorial_images/1-4.png)
   ![1-5](branching_tutorial_images/1-5.png)
+  \* Remember your branch name, git checkout to that. 
 
 ### • Step 4: Now make your changes. Add, commit, push as normal.
 
@@ -46,4 +47,6 @@ Once you clicked on "Create pull request", the pull request becomes a discussion
 ### • Step 7: Delete the branch.
 ![1-10](branching_tutorial_images/1-10.png)
 * Now you have the option to delete the branch. Recommend do so unless you want to make further changes and plan to start new pull requests later. 
+
+Go back to your local repo folder, do a git pull again. 
 
