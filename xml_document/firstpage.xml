@@ -1,27 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <root>
-MORE BEASTS
-FOR WORSE CHILDREN
-Title page
-MORE BEASTS
-(For WORSE CHILDREN)
-VERSES
-BY
-H.B.
-PICTURES
-BY
-B.T.B.
-LONDON:
-DUCKWORTH AND CO.
-3 Henrietta Street, Covent Garden.
-DEDICATION.
-Divider
-To
-Miss ALICE WOLCOTT BRINLEY,
-Of Philadelphia.
 
+<bookcover>
+    <figure>
+        <image sub="book cover" source=""/>
+        <imagedes>
+            This is the cover of the book.
+        </imagedes>
+    </figure>
+</bookcover>
 
-Beast
-[205]
+<booktitle>
+    MORE BEASTS
+    FOR WORSE CHILDREN
+</booktitle>
+
+<page type="title page">
+    <booktitle>
+        MORE BEASTS
+        (For WORSE CHILDREN)
+    </booktitle>
+
+    <person first-name="Hilaire" last-name="Belloc" gender="" role="writer">
+        VERSES
+        BY
+        H.B.
+    </person>
+
+    <person first-name="Basil" middle-name="Temple" last-name="Blackwood" gender="" role="illustrator">
+        PICTURES
+        BY
+        B.T.B.
+    </person>
+
+    <publisher>
+        LONDON:
+        <publishername>DUCKWORTH AND CO.</publishername>
+        <publisheraddress>3 Henrietta Street, Covent Garden.</publisheraddress>
+    </publisher>
+
+    DEDICATION.
+    Divider
+    To
+    Miss ALICE WOLCOTT BRINLEY,
+    Of Philadelphia.
+
+    <figure>
+        <image sub="title page image" source=""/>
+        <imagedes>
+            This is the picture at the end of the title page.
+        </imagedes>
+    </figure>
+
+    <pageNum num="205">[205]</pageNum>
+</page>
 
 MORE BEASTS
 FOR WORSE CHILDREN
