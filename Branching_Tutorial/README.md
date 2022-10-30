@@ -46,7 +46,7 @@ Once you clicked on "Create pull request", the pull request becomes a discussion
 
 ### • Step 7: Delete the branch.
 ![1-10](branching_tutorial_images/1-10.png)
-* Now you have the option to delete the branch. Recommend do so unless you want to make further changes and plan to start new pull requests later. 
+* After you merged your branch, you now have the option to delete the branch. Recommend do so unless you want to make further changes and plan to start new pull requests later. 
 
 Go back to your local repo folder, do a git pull again. 
 
