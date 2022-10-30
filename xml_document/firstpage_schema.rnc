@@ -1,5 +1,26 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
-start = root
+#Common elements
 
-root = element doc {
+    #Images
+    figure = element figure {image, imagedes?}
+    image = element image {sub, source}
+    sub = attribute sub {text} #Subtitle, mini-title for the image
+    source = attribute source {xsd:url} #URL or file path to image
+    imagedes = element imagedes {text} #Description of image; What's in the image, what the image describes.
+
+#End of Common elements
+
+#Document schema
+
+    start = root
+    root = element root { bookcover, booktitle, page+ }
+
+    bookcover = element bookcover {figure}
+
+    booktitle = element booktitle {text}
+
+    page = element page {}
+
+#End of Document schema
+
