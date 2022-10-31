@@ -1,26 +1,42 @@
-The Python
-The Python
-A Python I should not advise,—
-It needs a doctor for its eyes,
-And has the measles yearly.
-[212]
-Subject it to music
-However, if you feel inclined
-To get one (to improve your mind,
-And not from fashion merely),
-[213]Allow no music near its cage;
-Flies into a rage
-And when it flies into a rage
-Chastise it, most severely.
-An aunt in Yucatan
-[214]
-
-I had an aunt in Yucatan
-Who bought a Python from a man
-And kept it for a pet.
-She died, because she never knew
-These simple little rules and few;—
-[215]
-The snake
-The Snake is living yet.
-[216]
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <encoder first-name="Graydon" last-name="Kupfer"/>
+    <poem n="2">
+        <title>The Python</title>
+        <image alt="The Python"/>
+        <lg>
+            <l>A Python I should not advise,—</l>
+            <l>It needs a doctor for its eyes,</l>
+            <l>And has the measles yearly.</l>
+        </lg>
+        <pgNUM n="212">[212]</pgNUM>
+        <image alt="Subject it to music"/>
+        <lg>
+            <l>However, if you feel inclined</l>
+            <l>To get one (to improve your mind,</l>
+            <l>And not from fashion merely),</l>
+            <l>Allow no music near its cage;</l>
+        </lg>
+        <pgNUM n="213">[213]</pgNUM>
+        <image alt="Flies into a rage"/>
+        <lg>
+            <l>And when it flies into a rage</l>
+            <l>Chastise it, most severely.</l>
+        </lg>
+        <image alt="An aunt in Yucatan"/>
+        <pgNUM n="214">[214]</pgNUM>
+        <lg>
+            <l>I had an aunt in Yucatan</l>
+            <l>Who bought a Python from a man</l>
+            <l>And kept it for a pet.</l>
+            <l>She died, because she never knew</l>
+            <l>These simple little rules and few;—</l>
+        </lg>
+        <pgNUM n="215">[215]</pgNUM>
+        <image alt="The snake"/>
+        <lg>
+            <l>The Snake is living yet.</l>
+        </lg>
+        <pgNUM n="216">[216]</pgNUM>
+    </poem>
+</root>

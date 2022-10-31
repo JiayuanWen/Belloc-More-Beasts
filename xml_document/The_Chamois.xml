@@ -1,9 +1,17 @@
-The Chamois
-The Chamois
-The Chamois inhabits
-Lucerne, where his habits
-(Though why I have not an idea-r)
-Give him sudden short spasms
-On the brink of deep chasms,
-And he lives in perpetual fear.
-[243]
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <encoder first-name="Graydon" last-name="Kupfer"/>
+    <poem n="11">
+        <title>The Chamois</title>
+        <image alt="The Chamois"/>
+        <lg>
+            <l>The Chamois inhabits</l>
+            <l>Lucerne, where his habits</l>
+            <l>(Though why I have not an idea-r)</l>
+            <l>Give him sudden short spasms</l>
+            <l>On the brink of deep chasms,</l>
+            <l>And he lives in perpetual fear.</l>
+        </lg>
+        <pgNUM n="243">[243]</pgNUM>
+    </poem>
+</root>
