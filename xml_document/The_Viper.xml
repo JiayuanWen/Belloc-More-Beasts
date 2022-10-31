@@ -1,15 +1,27 @@
-The Viper
-The Viper
-Yet another great truth I record in my verse,
-That some Vipers are venomous, some the reverse;
-A fact you may prove if you try,
-[235]
-Procuring two vipers
-By procuring two Vipers, and letting them bite;
-[236]
-A fright
-With the first you are only the worse for a fright,
-[237]
-After the second
-But after the second you die.
-[238]
+<root>
+    
+<title>The <beast>Viper</beast></title>
+    <lineGroup>
+    
+        <line n="1">Yet another great truth I record in my verse,</line>
+        <line n="2">That some<beast> Vipers</beast> are <neg>venomous</neg>, some the reverse;</line>
+        <line n="3">fact you may prove if you try,</line>
+</lineGroup>
+<pgNUM>[235]</pgNUM>
+    <lineGroup>
+        <line n="4">Procuring two <beast>vipers</beast></line>
+        <line n="5">By procuring <num>two</num> <beast>Vipers</beast>, and letting them <neg>bite</neg>;</line>
+</lineGroup>
+<pgNUM>[236]</pgNUM>
+    <lineGroup>
+        <line n="6">A <emot>fright</emot></line>
+        <line n="7">With the first you are only the worse for a <emot>fright</emot>,</line>
+</lineGroup>
+<pgNUM>[237]</pgNUM>
+    <lineGroup>
+        <line n="8">After the <num>second</num></line>
+        <line n="9">But after the <num>second</num> you <neg>die</neg>.</line>
+</lineGroup>
+<pgNUM>[238]</pgNUM>
+
+</root>
