@@ -44,7 +44,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
         (ref, (booktitle & person & publisher & dedication & fig), pgNum) |
         
         #This one will be for poem pages. To be completed
-        (ref, title?, lineGroup+)
+        (ref, title?, lineGroup+, pgNum)
     }
     #For title page(s)
     
