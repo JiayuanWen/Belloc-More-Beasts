@@ -5,7 +5,7 @@
 <lineGroup>
     
     <line n="1">The <beast>Vulture</beast> <act>eats</act> between<gen> his</gen> <food>meals</food>,</line>
-<pgNUM>[230]</pgNUM>
+<pgNum>[230]</pgNum>
     <line n="2">And that's the reason why</line>
     <line n="3">As well as you or I</line>
     <line n="4"><gen>He </gen>very, very rarely <emot>feels</emot></line>
@@ -16,7 +16,7 @@
     <line n="7"><gen>His</gen> <BP>neck</BP> is growing <desc>thinner</desc>.</line>
     <line n="8">Oh! what a lesson for us all</line>
     <line n="9">To only <act>eat</act> at <food>dinner</food>!</line>
-<pgNUM>[231]</pgNUM>
+<pgNum>[231]</pgNum>
 </lineGroup>
     
 </root>
