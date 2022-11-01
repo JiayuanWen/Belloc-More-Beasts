@@ -22,7 +22,10 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 #Common attributes
 
     #Integer numbers
-    num = attribute num {xsd:integer}
+    n = attribute n {xsd:integer}
+    
+    #Reference 
+    ref = attribute ref {text} #Will change to reference data type later.
 
 #End of Common attributes
 
@@ -41,9 +44,14 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
         (ref, (booktitle & person & publisher & dedication & fig), pgNum) |
         
         #This one will be for poem pages. To be completed
-        (ref, )
+        (ref, title?, lineGroup+)
     }
-    ref = attribute ref {}
+    #For title page(s)
+    
+    #For poem pages
+    title = element title {text}
+    lineGroup = element lineGroup {line+}
+        line = element line {n, mixed{beast*, emot*, text}}
 
 #End of Document schema
 
