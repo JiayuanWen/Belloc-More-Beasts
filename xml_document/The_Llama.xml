@@ -1,30 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- XPath command to merge later: //root/* -->
+
 <root>
 
-<encoder first-name="Jiayuan" last-name="Wen">
+    <pg ref="">
+        <title>The Llama</title>
+        <fig>
+            <img alt="The Llama" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">The Llama is a woolly sort of fleecy hairy goat,</line>
+            <line n="2">With an indolent expression and an undulating throat</line>
+            <line n="3">Like an unsuccessful literary man.</line>
+        </lineGroup>
+        <pgNum n="239">[239]</pgNum>
+    </pg>
+    <pg ref="">
+        <fig>
+            <img alt="Find it in the atlas" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">And I know the place he lives in (or at least—I think I do)</line>
+            <line n="2">It is Ecuador, Brazil or Chili—possibly Peru;</line>
+            <line n="3">You must find it in the Atlas if you can.</line>
+        </lineGroup>
+        <pgNum n="240">[240]</pgNum>
+    </pg>
+    <pg ref="">
+        <fig>
+            <img alt="Lord of Turkestan" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">The Llama of the Pampasses you never should confound</line>
+            <line n="2">(In spite of a deceptive similarity of sound)</line>
+            <line n="3">With the Lhama who is Lord of Turkestan.</line>
+        </lineGroup>
+        <pgNum n="241">[241]</pgNum>
+    </pg>
+    <pg ref="">
+        <fig>
+            <img alt="The ruminant" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">For the former is a beautiful and valuable beast,</line>
+            <line n="2">But the latter is not lovable nor useful in the least;</line>
+            <line n="3">And the Ruminant is preferable surely to the Priest</line>
+            <line n="4">Who battens on the woful superstitions of the East,</line>
+            <line n="5">The Mongol of the Monastery of Shan.</line>
+        </lineGroup>
+        <pgNum n="242">[242]</pgNum>
+    </pg>
 
-The Llama
-The Llama
-The Llama is a woolly sort of fleecy hairy goat,
-With an indolent expression and an undulating throat
-Like an unsuccessful literary man.
-[239]
-Find it in the atlas
-And I know the place he lives in (or at least—I think I do)
-It is Ecuador, Brazil or Chili—possibly Peru;
-You must find it in the Atlas if you can.
-[240]
-Lord of Turkestan
-The Llama of the Pampasses you never should confound
-(In spite of a deceptive similarity of sound)
-With the Lhama who is Lord of Turkestan.
-[241]
-The ruminant
-For the former is a beautiful and valuable beast,
-But the latter is not lovable nor useful in the least;
-And the Ruminant is preferable surely to the Priest
-Who battens on the woful superstitions of the East,
-The Mongol of the Monastery of Shan.
-[242]
 </root>
