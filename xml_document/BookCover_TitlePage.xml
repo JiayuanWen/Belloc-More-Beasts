@@ -2,33 +2,33 @@
 
 <root>
 
-<bookcover>
-    <figure>
-        <image sub="book cover" source=""/>
-        <imagedes>
+<bookCover>
+    <fig>
+        <img alt="book cover" src=""/>
+        <imgDes>
             This is the cover of the book.
-        </imagedes>
-    </figure>
-</bookcover>
+        </imgDes>
+    </fig>
+</bookCover>
 
-<booktitle>
+<bookTitleAlt>
     MORE BEASTS
     FOR WORSE CHILDREN
-</booktitle>
+</bookTitleAlt>
 
-<page>
-    <booktitle>
+<pg ref="title-page">
+    <bookTitle>
         MORE BEASTS
         (For WORSE CHILDREN)
-    </booktitle>
+    </bookTitle>
 
-    <person first-name="Hilaire" last-name="Belloc" gender="" role="writer">
+    <person fstName="Hilaire" lstName="Belloc" gender="m" role="writer">
         VERSES
         BY
         H.B.
     </person>
 
-    <person first-name="Basil" middle-name="Temple" last-name="Blackwood" gender="" role="illustrator">
+    <person fstName="Basil" midName="Temple" lstName="Blackwood" gender="m" role="illustrator">
         PICTURES
         BY
         B.T.B.
@@ -40,19 +40,20 @@
         <publisheraddress>3 Henrietta Street, Covent Garden.</publisheraddress>
     </publisher>
 
-    DEDICATION.
-    Divider
-    To
-    Miss ALICE WOLCOTT BRINLEY,
-    Of Philadelphia.
-
-    <figure>
-        <image sub="title page image" source=""/>
-        <imagedes>
+    <dedicate>
+        DEDICATION.
+        Divider 
+        To
+        <person fstName="Alice" midNam="Wolcott" lstName="Brinley">Miss ALICE WOLCOTT BRINLEY</person>,
+        Of Philadelphia.
+    </dedicate>
+    <fig>
+        <img alt="title page image" src=""/>
+        <imgDes>
             This is the picture at the end of the title page.
-        </imagedes>
-    </figure>
+        </imgDes>
+    </fig>
 
-    <pageNum num="205">[205]</pageNum>
-</page>
+    <pgNum num="205">[205]</pgNum>
+</pg>
 </root>

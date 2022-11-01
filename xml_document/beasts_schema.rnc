@@ -3,24 +3,47 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 #Common elements
 
     #Images
-    figure = element figure {image, imagedes?}
-    image = element image {sub, source}
-    sub = attribute sub {text} #Subtitle, mini-title for the image
-    source = attribute source {xsd:url} #URL or file path to image
-    imagedes = element imagedes {text} #Description of image; What's in the image, what the image describes.
+    fig = element fig {img, imgDes?}
+    img = element img {alt, src}
+    alt = attribute alt {text} #Alt text, mini-title for the image
+    src = attribute src {xsd:anyURI} #URL or file path to image
+    imgDes = element imgDes {text} #Description of image; What's in the image, what the image describes.
+
+    #People
+    person = element person {fstName, midName?, lstName, gender, role?}
+    fstName = attribute fstName {text} #First name    
+    lstName = attribute lstName {text} #Last name
+    midName = attribute midName {text} #Middle name
+    gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
+    role = attribute role {text}
 
 #End of Common elements
+
+#Common attributes
+
+    #Integer numbers
+    num = attribute num {xsd:integer}
+
+#End of Common attributes
 
 #Document schema
 
     start = root
-    root = element root { bookcover, booktitle, page+ }
+    root = element root { (bookCover & bookTitleAlt), pg+ }
 
-    bookcover = element bookcover {figure}
+    bookCover = element bookCover {fig}
 
-    booktitle = element booktitle {text}
+    #'Alt' here stands for "alternative. In this case alternative book titles. 
+    bookTitleAlt = element BookTitleAlt {text}
 
-    page = element page {}
+    pg = element pg {
+        #This one is for title page(s).
+        (ref, (booktitle & person & publisher & dedication & fig), pgNum) |
+        
+        #This one will be for poem pages. To be completed
+        (ref, )
+    }
+    ref = attribute ref {}
 
 #End of Document schema
 
