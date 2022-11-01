@@ -2,44 +2,72 @@
 
 <root>
 
-<encoder first-name="Jiayuan" last-name="Wen">
-
-The Crocodile
-The Crocodile
-Whatever our faults, we can always engage
-That no fancy or fable shall sully our page,
-So take note of what follows, I beg.
-This creature so grand and august in its age,
-In its youth is hatched out of an egg.
-[222]
-The Missionary 1
-And oft in some far Coptic town
-The Missionary sits him down
-To breakfast by the Nile:
-The heart beneath his priestly gown
-Is innocent of guile;
-[223]
-The Missionary 2
-When suddenly the rigid frown
-Of Panic is observed to drown
-His customary smile.
-Why does he leap
-[224]
-
-Why does he start and leap amain,
-[225]
-Scour the sandy Libyan plain
-And scour the sandy Libyan plain
-[226]
-Like one who wants to catch a train
-Like one that wants to catch a train,
-[227]
+<pg ref="">
+    <title>The Crocodile</title>
+    <fig>
+        <img alt="The Crocodile" src=""/>
+    </fig>
+    <lineGroup>
+        <line n="1">Whatever our faults, we can always engage</line>
+        <line n="2">That no fancy or fable shall sully our page,</line>
+        <line n="3">So take note of what follows, I beg.</line>
+        <line n="4">This creature so grand and august in its age,</line>
+        <line n="5">In its youth is hatched out of an egg.</line>
+    </lineGroup>
+    <pgNum n="222">[222]</pgNum>
+</pg>
+    
+ <pg ref="">    
+     <fig>
+         <img alt="The Missionary 1" src=""/>
+     </fig>
+    <lineGroup>
+        And oft in some far Coptic town
+        The Missionary sits him down
+        To breakfast by the Nile:
+        The heart beneath his priestly gown
+        Is innocent of guile;
+    </lineGroup>
+     <pgNum n="223">[223]</pgNum>
+    </pg>
+        
+    <pg ref="">
+    The Missionary 2
+    When suddenly the rigid frown
+    Of Panic is observed to drown
+    His customary smile.
+    Why does he leap
+    [224]
+    </pg>
+        
+    <pg ref="">
+    Why does he start and leap amain,
+    [225]
+    </pg>
+        
+    <pg ref="">
+    Scour the sandy Libyan plain
+    And scour the sandy Libyan plain
+    [226]
+    </pg>
+        
+    <pg ref="">
+    Like one who wants to catch a train
+    Like one that wants to catch a train,
+    [227]
+</pg>
+    
+<pg ref="">
 Or wrestles with internal pain
 Or wrestles with internal pain?
 [228]
+</pg>
+<pg>
 Egg-cup
 Because he finds his egg contain—
 Green, hungry, horrible and plain—
 An Infant Crocodile.
 [229]
+</pg>
+
 </root>
