@@ -16,6 +16,9 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     midName = attribute midName {text} #Middle name
     gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
     role = attribute role {text}
+    
+    #Page number
+    pgNum = element pgNum {n, text}
 
 #End of Common elements
 
@@ -41,12 +44,17 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
     pg = element pg {
         #This one is for title page(s).
-        (ref, (booktitle & person & publisher & dedication & fig), pgNum) |
+        (ref, (bookTitle & person & publisher & dedication & fig), pgNum) |
         
         #This one will be for poem pages. To be completed
         (ref, title?, lineGroup+, pgNum)
     }
     #For title page(s)
+    bookTitle = element bookTitle {text}
+    publisher = element publisher {mixed{publisherName, publisherAddress, text}}
+        publisherAddress = element publisherAddress {text}
+        publisherName = element publisherName {text}
+    dedication = element dedication {mixed{person,text}}
     
     #For poem pages
     title = element title {text}
