@@ -1,73 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- XPath command to merge later: //root/* -->
+
 <root>
-
-<pg ref="">
-    <title>The Crocodile</title>
-    <fig>
-        <img alt="The Crocodile" src=""/>
-    </fig>
-    <lineGroup>
-        <line n="1">Whatever our faults, we can always engage</line>
-        <line n="2">That no fancy or fable shall sully our page,</line>
-        <line n="3">So take note of what follows, I beg.</line>
-        <line n="4">This creature so grand and august in its age,</line>
-        <line n="5">In its youth is hatched out of an egg.</line>
-    </lineGroup>
-    <pgNum n="222">[222]</pgNum>
-</pg>
     
- <pg ref="">    
-     <fig>
-         <img alt="The Missionary 1" src=""/>
-     </fig>
-    <lineGroup>
-        And oft in some far Coptic town
-        The Missionary sits him down
-        To breakfast by the Nile:
-        The heart beneath his priestly gown
-        Is innocent of guile;
-    </lineGroup>
-     <pgNum n="223">[223]</pgNum>
-    </pg>
-        
     <pg ref="">
-    The Missionary 2
-    When suddenly the rigid frown
-    Of Panic is observed to drown
-    His customary smile.
-    Why does he leap
-    [224]
+        <title>The Crocodile</title>
+        <fig>
+            <img alt="The Crocodile" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">Whatever our faults, we can always engage</line>
+            <line n="2">That no fancy or fable shall sully our page,</line>
+            <line n="3">So take note of what follows, I beg.</line>
+            <line n="4">This creature so grand and august in its age,</line>
+            <line n="5">In its youth is hatched out of an egg.</line>
+        </lineGroup>
+        <pgNum n="222">[222]</pgNum>
     </pg>
-        
-    <pg ref="">
-    Why does he start and leap amain,
-    [225]
-    </pg>
-        
-    <pg ref="">
-    Scour the sandy Libyan plain
-    And scour the sandy Libyan plain
-    [226]
-    </pg>
-        
-    <pg ref="">
-    Like one who wants to catch a train
-    Like one that wants to catch a train,
-    [227]
-</pg>
     
-<pg ref="">
-Or wrestles with internal pain
-Or wrestles with internal pain?
-[228]
-</pg>
-<pg>
-Egg-cup
-Because he finds his egg contain—
-Green, hungry, horrible and plain—
-An Infant Crocodile.
-[229]
-</pg>
-
+    <pg ref="">    
+        <fig>
+            <img alt="The Missionary 1" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">And oft in some far Coptic town</line>
+            <line n="2">The Missionary sits him down</line>
+            <line n="3">To breakfast by the Nile:</line>
+            <line n="4">The heart beneath his priestly gown</line>
+            <line n="5">Is innocent of guile;</line>
+        </lineGroup>
+        <pgNum n="223">[223]</pgNum>
+    </pg>
+    
+    <pg ref="">
+        <fig>
+            <img alt="The Missionary 2" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">When suddenly the rigid frown</line>
+            <line n="2">Of Panic is observed to drown</line>
+            <line n="3">His customary smile.</line>
+            <line n="4">Why does he leap</line>
+        </lineGroup>
+        <pgNum n="224">[224]</pgNum>
+    </pg>
+    
+    <pg ref="">
+        <fig>
+            <img alt="he start and leap amain" src=""/>
+        </fig>
+        <lineGroupo>
+            <line n="1">Why does he start and leap amain,</line>
+        </lineGroupo>
+        <pgNum n="225">[225]</pgNum>
+    </pg>
+    
+    <pg ref="">
+        <fig>
+            <img alt="Scour the sandy Libyan plain" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">And scour the sandy Libyan plain</line>
+        </lineGroup>
+        <pgNum n="226">[226]</pgNum>
+    </pg>
+    
+    <pg ref="">
+        <fig>
+            <img alt="Like one who wants to catch a train" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">Like one that wants to catch a train,</line>
+        </lineGroup>
+        <pgNum n="227">[227]</pgNum>
+    </pg>
+    
+    <pg ref="">
+        <fig>
+            <img alt="Or wrestles with internal pain" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">Or wrestles with internal pain?</line>
+        </lineGroup>
+        <pgNum n="228">[228]</pgNum>
+    </pg>
+    <pg>
+        <fig>
+            <img alt="Egg-cup" src=""/>
+        </fig>
+        <lineGroup>
+            <line n="1">Because he finds his egg contain—</line>
+            <line n="2">Green, hungry, horrible and plain—</line>
+            <line n="3">An Infant Crocodile.</line>
+        </lineGroup>
+        <pgNum n="229">[229]</pgNum>
+    </pg>
+    
 </root>
