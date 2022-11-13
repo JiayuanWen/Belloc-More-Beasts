@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <root>
 
-<title>The <beast>Scorpion</beast></title>
-    
-    <lineGroup>
+    <title>The <beast>Scorpion</beast></title>
 
-        <line n="1">Out of <furn>bed</furn></line>
-        <line n="2">The <beast>Scorpion</beast> is as <desc>black</desc> as soot,</line>
-        <line n="3"><gen>He </gen>dearly <pos>loves</pos> to <neg>bite</neg>;</line>
-        <line n="4"><gen>He</gen> is a most <neg>unpleasant</neg> brute</line>
-        <line n="5">To find in <furn>bed</furn>, at <time>night</time>.</line>
-</lineGroup>
-<pgNum>[221]</pgNum>
+    <lg>
+        <l n="1">Out of <furn>bed</furn></l>
+        <l n="2">The <beast>Scorpion</beast> is as <desc>black</desc> as soot,</l>
+        <l n="3"><gen>He </gen>dearly <pos>loves</pos> to <neg>bite</neg>;</l>
+        <l n="4"><gen>He</gen> is a most <neg>unpleasant</neg> brute</l>
+        <l n="5">To find in <furn>bed</furn>, at <time>night</time>.</l>
+    </lg>
+    <pgNum>[221]</pgNum>
 
 </root>

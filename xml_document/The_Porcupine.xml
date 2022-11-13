@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <!-- XPath command to merge later: //root/* -->
 
@@ -9,32 +10,32 @@
         <fig>
             <img alt="Porcupine" src=""/>
         </fig>
-        <lineGroup>
-            <line n="1">What! would you slap the Porcupine?</line>
-            <line n="2">Unhappy child—desist!</line>
-            <line n="3">Alas! that any friend of mine</line>
-            <line n="4">Should turn Tupto-philist.[B]</line>
-        </lineGroup>
+        <lg>
+            <l n="1">What! would you slap the Porcupine?</l>
+            <l n="2">Unhappy child—desist!</l>
+            <l n="3">Alas! that any friend of mine</l>
+            <l n="4">Should turn Tupto-philist.[B]</l>
+        </lg>
         <pgNum n="218">[218]</pgNum>
     </pg>
     <pg ref="">    
         <fig>
             <img alt="To strike the creature" src=""/>
         </fig>
-        <lineGroup>
-            <line n="1">To strike the meanest and the least</line>
-            <line n="2">Of creatures is a sin,</line>
-        </lineGroup>
+        <lg>
+            <l n="1">To strike the meanest and the least</l>
+            <l n="2">Of creatures is a sin,</l>
+        </lg>
         <pgNum n="219">[219]</pgNum>
     </pg>
     <pg ref="">
         <fig>
             <img alt="With prickes on its skin" src=""/>
         </fig>
-        <lineGroup>
-            <line n="1">How much more bad to beat a beast</line>
-            <line n="2">With prickles on its skin.</line>
-        </lineGroup>
+        <lg>
+            <l n="1">How much more bad to beat a beast</l>
+            <l n="2">With prickles on its skin.</l>
+        </lg>
         <pgNum n="220">[220]</pgNum>
     </pg>
 

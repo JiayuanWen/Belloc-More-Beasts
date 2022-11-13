@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
 INTRODUCTION
 The parents of the learned child
 (His father and his mother)
@@ -46,3 +50,4 @@ But for this little book."
 [211]
 FOOTNOTE:
 [A] Sometimes called the "Lion-tailed or tufted Baboon of Ceylon."
+</root>

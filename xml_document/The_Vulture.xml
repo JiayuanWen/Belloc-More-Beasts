@@ -1,22 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <root>
     
 <title>The <beast>Vulture</beast></title>
 
-<lineGroup>
+<lg>
     
-    <line n="1">The <beast>Vulture</beast> <act>eats</act> between<gen> his</gen> <food>meals</food>,</line>
+    <l n="1">The <beast>Vulture</beast> <act>eats</act> between<gen> his</gen> <food>meals</food>,</l>
 <pgNum>[230]</pgNum>
-    <line n="2">And that's the reason why</line>
-    <line n="3">As well as you or I</line>
-    <line n="4"><gen>He </gen>very, very rarely <emot>feels</emot></line>
-    <line n="5">As well as you and I.</line>
-</lineGroup>
-<lineGroup>
-    <line n="6"><gen>His</gen> <BP>eye</BP> is <desc>dull</desc>, <gen>his</gen> <BP>head</BP> is <desc>bald</desc>,</line>
-    <line n="7"><gen>His</gen> <BP>neck</BP> is growing <desc>thinner</desc>.</line>
-    <line n="8">Oh! what a lesson for us all</line>
-    <line n="9">To only <act>eat</act> at <food>dinner</food>!</line>
+    <l n="2">And that's the reason why</l>
+    <l n="3">As well as you or I</l>
+    <l n="4"><gen>He </gen>very, very rarely <emot>feels</emot></l>
+    <l n="5">As well as you and I.</l>
+</lg>
+<lg>
+    <l n="6"><gen>His</gen> <BP>eye</BP> is <desc>dull</desc>, <gen>his</gen> <BP>head</BP> is <desc>bald</desc>,</l>
+    <l n="7"><gen>His</gen> <BP>neck</BP> is growing <desc>thinner</desc>.</l>
+    <l n="8">Oh! what a lesson for us all</l>
+    <l n="9">To only <act>eat</act> at <food>dinner</food>!</l>
 <pgNum>[231]</pgNum>
-</lineGroup>
+</lg>
     
 </root>

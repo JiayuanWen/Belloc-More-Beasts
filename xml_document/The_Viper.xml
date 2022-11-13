@@ -1,27 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <root>
     
 <title>The <beast>Viper</beast></title>
-    <lineGroup>
+    <lg>
     
-        <line n="1">Yet another great truth I record in my verse,</line>
-        <line n="2">That some<beast> Vipers</beast> are <neg>venomous</neg>, some the reverse;</line>
-        <line n="3">fact you may prove if you try,</line>
-</lineGroup>
+        <l n="1">Yet another great truth I record in my verse,</l>
+        <l n="2">That some<beast> Vipers</beast> are <neg>venomous</neg>, some the reverse;</l>
+        <l n="3">fact you may prove if you try,</l>
+</lg>
 <pgNum>[235]</pgNum>
-    <lineGroup>
-        <line n="4">Procuring two <beast>vipers</beast></line>
-        <line n="5">By procuring <num>two</num> <beast>Vipers</beast>, and letting them <neg>bite</neg>;</line>
-</lineGroup>
+    <lg>
+        <l n="4">Procuring two <beast>vipers</beast></l>
+        <l n="5">By procuring <num>two</num> <beast>Vipers</beast>, and letting them <neg>bite</neg>;</l>
+</lg>
 <pgNum>[236]</pgNum>
-    <lineGroup>
-        <line n="6">A <emot>fright</emot></line>
-        <line n="7">With the first you are only the worse for a <emot>fright</emot>,</line>
-</lineGroup>
+    <lg>
+        <l n="6">A <emot>fright</emot></l>
+        <l n="7">With the first you are only the worse for a <emot>fright</emot>,</l>
+</lg>
 <pgNum>[237]</pgNum>
-    <lineGroup>
-        <line n="8">After the <num>second</num></line>
-        <line n="9">But after the <num>second</num> you <neg>die</neg>.</line>
-</lineGroup>
+    <lg>
+        <l n="8">After the <num>second</num></l>
+        <l n="9">But after the <num>second</num> you <neg>die</neg>.</l>
+</lg>
 <pgNum>[238]</pgNum>
 
 </root>
