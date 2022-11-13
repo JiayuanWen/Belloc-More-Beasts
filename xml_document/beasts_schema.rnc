@@ -10,7 +10,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     imgDes = element imgDes {text} #Description of image; What's in the image, what the image describes.
 
     #People
-    person = element person {fstName, midName?, lstName, gender, role?}
+    person = element person {fstName, midName?, lstName, gender, role?, text}
     fstName = attribute fstName {text} #First name    
     lstName = attribute lstName {text} #Last name
     midName = attribute midName {text} #Middle name
@@ -35,29 +35,29 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 #Document schema
 
     start = root
-    root = element root { (bookCover & bookTitleAlt), pg+ }
+    root = element root { ((bookCover & bookTitleAlt), pg+) | (pg+) }
 
     bookCover = element bookCover {fig}
 
     #'Alt' here stands for "alternative. In this case alternative book titles. 
-    bookTitleAlt = element BookTitleAlt {text}
+    bookTitleAlt = element bookTitleAlt {text}
 
     pg = element pg {
         #This one is for title page(s).
-        (ref, (bookTitle & person & publisher & dedication & fig), pgNum) |
+        (ref, (bookTitle & person+ & publisher & dedicate & fig), pgNum) |
         
         #This one will be for poem pages. To be completed
-        (ref, title?, lg+, pgNum)
+        (ref, title?, (lg+ & fig), pgNum)
     }
     #For title page(s)
     bookTitle = element bookTitle {text}
     publisher = element publisher {mixed{publisherName, publisherAddress}}
         publisherAddress = element publisherAddress {text}
         publisherName = element publisherName {text}
-    dedication = element dedication {mixed{person}}
+    dedicate = element dedicate {mixed{person},text}
     
     #For poem pages
-    title = element title {text}
+    title = element title {mixed{beast},text}
     lg = element lg {l+} #lg=line group;l=line
         l = element l {n, mixed{beast*, emot*}}
         beast = element beast {text}

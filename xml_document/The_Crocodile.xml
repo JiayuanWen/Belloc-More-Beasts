@@ -6,7 +6,7 @@
 <root>
     
     <pg ref="">
-        <title>The Crocodile</title>
+        <title>The <beast>Crocodile</beast></title>
         <fig>
             <img alt="The Crocodile" src=""/>
         </fig>
@@ -61,9 +61,9 @@
         <fig>
             <img alt="Scour the sandy Libyan plain" src=""/>
         </fig>
-        <lineGroup>
-            <line n="1">And scour the sandy Libyan plain</line>
-        </lineGroup>
+        <lg>
+            <l n="1">And scour the sandy Libyan plain</l>
+        </lg>
         <pgNum n="226">[226]</pgNum>
     </pg>
     
@@ -86,7 +86,7 @@
         </lg>
         <pgNum n="228">[228]</pgNum>
     </pg>
-    <pg>
+    <pg ref="">
         <fig>
             <img alt="Egg-cup" src=""/>
         </fig>
