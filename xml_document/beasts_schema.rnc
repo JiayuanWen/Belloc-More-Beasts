@@ -51,15 +51,16 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     }
     #For title page(s)
     bookTitle = element bookTitle {text}
-    publisher = element publisher {mixed{publisherName, publisherAddress, text}}
+    publisher = element publisher {mixed{publisherName, publisherAddress}}
         publisherAddress = element publisherAddress {text}
         publisherName = element publisherName {text}
-    dedication = element dedication {mixed{person,text}}
+    dedication = element dedication {mixed{person}}
     
     #For poem pages
     title = element title {text}
-    lg = element lg {l+}
-        l = element l {n, mixed{beast*, emot*, text}}
-
+    lg = element lg {l+} #lg=line group;l=line
+        l = element l {n, mixed{beast*, emot*}}
+        beast = element beast {text}
+        emot = element emot {text}
 #End of Document schema
 
