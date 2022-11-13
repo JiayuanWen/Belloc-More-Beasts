@@ -47,7 +47,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
         (ref, (bookTitle & person & publisher & dedication & fig), pgNum) |
         
         #This one will be for poem pages. To be completed
-        (ref, title?, lineGroup+, pgNum)
+        (ref, title?, lg+, pgNum)
     }
     #For title page(s)
     bookTitle = element bookTitle {text}
@@ -58,8 +58,8 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     
     #For poem pages
     title = element title {text}
-    lineGroup = element lineGroup {line+}
-        line = element line {n, mixed{beast*, emot*, text}}
+    lg = element lg {l+}
+        l = element l {n, mixed{beast*, emot*, text}}
 
 #End of Document schema
 
