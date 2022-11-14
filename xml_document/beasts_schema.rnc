@@ -37,7 +37,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     start = root
     root = element root { ((bookCover & bookTitleAlt), pg+) | (pg+) }
 
-    bookCover = element bookCover {fig}
+    bookCover = element bookCover {fig?}
 
     #'Alt' here stands for "alternative. In this case alternative book titles. 
     bookTitleAlt = element bookTitleAlt {text}
@@ -47,7 +47,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
         (ref, (bookTitle & person+ & publisher & dedicate & fig), pgNum) |
         
         #This one will be for poem pages. To be completed
-        (ref, title?, (lg+ & fig), pgNum)
+        (ref, title?, (lg+ & fig*), pgNum)
     }
     #For title page(s)
     bookTitle = element bookTitle {text}
