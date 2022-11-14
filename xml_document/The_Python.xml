@@ -9,7 +9,7 @@
             <img alt="The Python" src=""/>
         </fig>
         <lg>
-            <l n="1">A Python I should not advise,—</l>
+            <l n="1">A Python I should not <act>advise</act>,—</l>
             <l n="2">It needs a doctor for its eyes,</l>
             <l n="3">And has the measles yearly.</l>
         </lg>
@@ -42,10 +42,10 @@
     </pg>
     <pg ref="">
         <lg>
-            <l n="1">I had an aunt in Yucatan</l>
+            <l n="1">I had an aunt in <location>Yucatan</location></l>
             <l n="2">Who bought a Python from a man</l>
             <l n="3">And kept it for a pet.</l>
-            <l n="4">She died, because she never knew</l>
+            <l n="4">She <act>died</act>, because she never knew</l>
             <l n="5">These simple little rules and few;—</l>
         </lg>
         <pgNum n="215">[215]</pgNum>

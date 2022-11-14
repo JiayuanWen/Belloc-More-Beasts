@@ -6,7 +6,7 @@
 <root>
 
     <pg ref="">
-        <title>The Llama</title>
+        <title>The Llama<title/>
         <fig>
             <img alt="The Llama" src=""/>
         </fig>
@@ -23,7 +23,7 @@
         </fig>
         <lg>
             <l n="1">And I know the place he lives in (or at least—I think I do)</l>
-            <l n="2">It is Ecuador, Brazil or Chili—possibly Peru;</l>
+            <l n="2">It is <location>Ecuador, Brazil or Chili—possibly Peru</location>;</l>
             <l n="3">You must find it in the Atlas if you can.</l>
         </lg>
         <pgNum n="240">[240]</pgNum>
