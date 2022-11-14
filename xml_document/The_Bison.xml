@@ -2,25 +2,35 @@
 
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <encoder first-name="Graydon" last-name="Kupfer"/>
-    <poem n="8">
-        <title>The Bison</title>
-        <image alt="The Bison"/>
+    <!--Encoder: Graydon Kupfer-->
+    <pg ref="">
+        <title><beast>The Bison</beast></title>
+        <fig>
+            <img alt="The Bison" src=""/>
+        </fig>
         <lg>
-            <l>The Bison is vain, and (I write it with pain)</l>
-            <l>The Door-mat you see on his head</l>
+            <l n="1">The Bison is vain, and (I write it with pain)</l>
+            <l n="2">The Door-mat you see on his head</l>
         </lg>
-        <pgNUM n="232">[232]</pgNUM>
-        <image alt="The opulent growth"/>
+        <pgNum n="232">[232]</pgNum>
+    </pg>
+    <pg ref="">
+        <fig>
+            <img alt="The opulent growth" src=""/>
+        </fig>
         <lg>
-            <l>Is not, as some learned professors maintain,</l>
-            <l>The opulent growth of a genius' brain;</l>
+            <l n="1">Is not, as some learned professors maintain,</l>
+            <l n="2">The opulent growth of a genius' brain;</l>
         </lg>
-        <pgNUM n="233">[233]</pgNUM>
-        <image alt="Sewn on with needle and thread"/>
+        <pgNum n="233">[233]</pgNum>
+    </pg>
+    <pg ref="">
+        <fig>
+            <img alt="Sewn on with needle and thread" src=""/>
+        </fig>
         <lg>
-            <l>But is sewn on with needle and thread.</l>
+            <l n="1">But is sewn on with needle and thread.</l>
         </lg>
-        <pgNUM n="234">[234]</pgNUM>
-    </poem>
+        <pgNum n="234">[234]</pgNum>
+    </pg>
 </root>

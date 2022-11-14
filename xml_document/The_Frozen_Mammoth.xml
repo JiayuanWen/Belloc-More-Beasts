@@ -2,34 +2,48 @@
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <root>
-    <encoder first-name="Graydon" last-name="Kupfer"/>
-    <poem n="12">
-        <title>The Frozen Mammoth</title>
-        <image alt="The Mammoth"/>
+    <!--Encoder: Graydon Kupfer-->
+    <pg ref="">
+        <title><beast>The Frozen Mammoth</beast></title>
+        <fig>
+            <img alt="The Mammoth" src=""/>
+        </fig>
         <lg>
-            <l>This Creature, though rare, is still found to the East</l>
-            <l>Of the Northern Siberian Zone.</l>
+            <l n="1">This Creature, though rare, is still found to the East</l>
+            <l n="2">Of the Northern Siberian Zone.</l>
         </lg>
-        <pgNUM n="244">[244]</pgNUM>
-        <image alt="Melting"/>
+        <pgNum n="244">[244]</pgNum>
+    </pg>
+    <pg ref="">
+        <fig>
+            <img alt="Melting" src=""/>
+        </fig>
         <lg>
-            <l>It is known to the whole of that primitive group</l>
-            <l>That the carcass will furnish an excellent soup,</l>
-            <l>Though the cooking it offers one drawback at least</l>
-            <l>(Of a serious nature I own):</l>
+            <l n="1">It is known to the whole of that primitive group</l>
+            <l n="2">That the carcass will furnish an excellent soup,</l>
+            <l n="3">Though the cooking it offers one drawback at least</l>
+            <l n="4">(Of a serious nature I own):</l>
         </lg>
-        <pgNUM n="245">[245]</pgNUM>
-        <image alt="Deflated mammoth"/>
+        <pgNum n="245">[245]</pgNum>
+    </pg>
+    <pg ref="">
+        <fig>
+            <img alt="Deflated mammoth" src=""/>
+        </fig>
         <lg>
-            <l>If the skin be but punctured before it is boiled,</l>
-            <l>Your confection is wholly and utterly spoiled.</l>
+            <l n="1">If the skin be but punctured before it is boiled,</l>
+            <l n="2">Your confection is wholly and utterly spoiled.</l>
         </lg>
-        <pgNUM n="246">[246]</pgNUM>
-        <image alt="The dainty is unknown"/>
+        <pgNum n="246">[246]</pgNum>
+    </pg>
+    <pg ref="">
+        <fig>
+            <img alt="The dainty is unknown" src=""/>
+        </fig>
         <lg>
-            <l>And hence (on account of the size of the beast)</l>
-            <l>The dainty is nearly unknown.</l>
+            <l n="1">And hence (on account of the size of the beast)</l>
+            <l n="2">The dainty is nearly unknown.</l>
         </lg>
-        <pgNUM n="247">[247]</pgNUM>
-    </poem>
+        <pgNum n="247">[247]</pgNum>
+    </pg>
 </root>
