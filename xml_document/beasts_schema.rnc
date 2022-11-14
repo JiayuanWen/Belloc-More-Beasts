@@ -16,6 +16,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     midName = attribute midName {text} #Middle name
     gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
     role = attribute role {text}
+
     
     #Page number
     pgNum = element pgNum {n, text}
@@ -26,6 +27,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
     #Integer numbers
     n = attribute n {xsd:integer}
+    
     
     #Reference 
     ref = attribute ref {text} #Will change to reference data type later.
@@ -59,8 +61,9 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     #For poem pages
     title = element title {mixed{beast},text}
     lg = element lg {l+} #lg=line group;l=line
-        l = element l {n, mixed{beast*, emot*}}
+        l = element l {n, mixed{beast*, emot*, act*}}
         beast = element beast {text}
         emot = element emot {text}
+        act = element act {text}
 #End of Document schema
 
