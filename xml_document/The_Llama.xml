@@ -6,12 +6,12 @@
 <root>
 
     <pg ref="">
-        <title>The Llama<title/>
+        <title>The <beast>Llama</beast></title>
         <fig>
             <img alt="The Llama" src=""/>
         </fig>
         <lg>
-            <l n="1">The Llama is a woolly sort of fleecy hairy goat,</l>
+            <l n="1">The <beast>Llama</beast> is a woolly sort of fleecy hairy goat,</l>
             <l n="2">With an indolent expression and an undulating throat</l>
             <l n="3">Like an unsuccessful literary man.</l>
         </lg>
@@ -23,7 +23,7 @@
         </fig>
         <lg>
             <l n="1">And I know the place he lives in (or at least—I think I do)</l>
-            <l n="2">It is <location>Ecuador, Brazil or Chili—possibly Peru</location>;</l>
+            <l n="2">It is <location>Ecuador</location>, <location>Brazil</location> or <location>Chili</location>—possibly <location>Peru</location>;</l>
             <l n="3">You must find it in the Atlas if you can.</l>
         </lg>
         <pgNum n="240">[240]</pgNum>
@@ -33,7 +33,7 @@
             <img alt="Lord of Turkestan" src=""/>
         </fig>
         <lg>
-            <l n="1">The Llama of the Pampasses you never should confound</l>
+            <l n="1">The <beast>Llama</beast> of the Pampasses you never should confound</l>
             <l n="2">(In spite of a deceptive similarity of sound)</l>
             <l n="3">With the Lhama who is Lord of Turkestan.</l>
         </lg>
