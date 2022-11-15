@@ -2,9 +2,9 @@
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <root>
-The Microbe
-The Microbe
-The Microbe is so very small
+<bookTitleAlt>The Microbe</bookTitleAlt>
+<bookCover>The Microbe</bookCover>
+The <animal>Microbe</animal> is so very small
 You cannot make him out at all,
 But many sanguine people hope
 To see him through a microscope.

@@ -41,20 +41,21 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 #Document schema
 
     start = root
-    root = element root { ((bookCover & bookTitleAlt), pg+) | (pg+) }
+    root = element root { ((bookCover & bookTitleAlt & animal & text), pg+) | (pg+) }
 
-    bookCover = element bookCover {fig?}
+    bookCover = element bookCover {text}
   
     bookTitleAlt = element bookTitleAlt {text} #'Alt' here stands for "alternative. In this case alternative book titles. 
 
-    pg = element pg {
+    pg = element pg { 
         #This one is for title page(s).
         (ref, (bookTitle & person+ & publisher & dedicate & fig), pgNum) |
         
         #This one will be for poem pages.
-        (ref, title?, (lg+ & fig*), pgNum)
+        (ref, title?, (lg+ & fig*), pgNum) 
     }
-    
+   animal = element animal {text}
+   
     #For title page(s)
     bookTitle = element bookTitle {text}
     publisher = element publisher {mixed{publisherName, publisherAddress}}
