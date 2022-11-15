@@ -61,7 +61,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     publisher = element publisher {mixed{publisherName, publisherAddress}}
         publisherAddress = element publisherAddress {text}
         publisherName = element publisherName {text}
-    dedicate = element dedicate {mixed{person},text}
+    dedicate = element dedicate {mixed{person}+,text}
     
     #For poem pages
     title = element title {mixed{beast*},text}
