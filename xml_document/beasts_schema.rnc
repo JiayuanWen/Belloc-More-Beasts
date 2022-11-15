@@ -65,7 +65,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     #For poem pages
     title = element title {mixed{beast*},text}
     lg = element lg {l+} #lg=line group;l=line
-        l = element l {n, mixed{beast*, emot*, act*, location*, furn*, neg*, pos*, desc*, gen* }}
+        l = element l {n, mixed{beast*, emot*, act*, location*, furn*, neg*, pos*, desc*, gen*, num* }}
             #Schema ideas goes below
             beast = element beast {text}
             emot = element emot {text}
@@ -76,7 +76,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
             furn = element furn {text}
             desc = element desc {text}
             gen = element gen {text}
-           
+           num = element num {text}
             
 #End of Document schema
 
