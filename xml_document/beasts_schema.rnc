@@ -71,6 +71,8 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
             emot = element emot {text}
             act = element act {text}
             location = element location {text}
+            neg = element neg {text}
+            pos = element pos {text}
             
 #End of Document schema
 
