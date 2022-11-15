@@ -9,7 +9,7 @@
             <img alt="The Mammoth" src=""/>
         </fig>
         <lg>
-            <l n="1">This Creature, though rare, is still found to the <location>East</location></l>
+            <l n="1"><beast>This Creature</beast>, though rare, is still <act>found</act> to the <location>East</location></l>
             <l n="2">Of the <location>Northern Siberian Zone</location>.</l>
         </lg>
         <pgNum n="244">[244]</pgNum>
@@ -19,10 +19,10 @@
             <img alt="Melting" src=""/>
         </fig>
         <lg>
-            <l n="1">It is known to the whole of that primitive group</l>
-            <l n="2">That the carcass will furnish an excellent soup,</l>
-            <l n="3">Though the <act>cooking</act> it offers one drawback at least</l>
-            <l n="4">(Of a serious nature I own):</l>
+            <l n="1">It is <act>known</act> to the whole of that <people>primitive group</people></l>
+            <l n="2">That the <beast>carcass</beast> will <act>furnish an excellent soup</act>,</l>
+            <l n="3">Though the <act>cooking it </act><act>offers</act> one drawback at least</l>
+            <l n="4">(Of a serious nature <people>I </people><act>own</act>):</l>
         </lg>
         <pgNum n="245">[245]</pgNum>
     </pg>
@@ -31,8 +31,8 @@
             <img alt="Deflated mammoth" src=""/>
         </fig>
         <lg>
-            <l n="1">If the skin be but <act>punctured</act> before it is boiled,</l>
-            <l n="2">Your confection is wholly and utterly spoiled.</l>
+            <l n="1">If the <beast>skin</beast> be but <act>punctured</act> before it is <act>boiled</act>,</l>
+            <l n="2">Your confection is wholly and utterly <act>spoiled</act>.</l>
         </lg>
         <pgNum n="246">[246]</pgNum>
     </pg>
@@ -41,7 +41,7 @@
             <img alt="The dainty is unknown" src=""/>
         </fig>
         <lg>
-            <l n="1">And hence (on account of the size of the beast)</l>
+            <l n="1">And hence (on account of the size of the <beast>beast</beast>)</l>
             <l n="2">The dainty is nearly unknown.</l>
         </lg>
         <pgNum n="247">[247]</pgNum>

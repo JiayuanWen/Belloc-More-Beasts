@@ -9,8 +9,8 @@
             <img alt="The Bison" src=""/>
         </fig>
         <lg>
-            <l n="1">The Bison is vain, and (I write it with pain)</l>
-            <l n="2">The Door-mat you see on his head</l>
+            <l n="1"><beast>The Bison</beast> is vain, and (<person>I </person><act>write it</act> with pain)</l>
+            <l n="2">The Door-mat you see <location>on his head</location></l>
         </lg>
         <pgNum n="232">[232]</pgNum>
     </pg>
@@ -19,8 +19,8 @@
             <img alt="The opulent growth" src=""/>
         </fig>
         <lg>
-            <l n="1">Is not, as some learned professors maintain,</l>
-            <l n="2">The opulent growth of a genius' brain;</l>
+            <l n="1">Is not, as <person>some learned professors </person><act>maintain</act>,</l>
+            <l n="2">The opulent <act>growth</act> of a genius' brain;</l>
         </lg>
         <pgNum n="233">[233]</pgNum>
     </pg>
@@ -29,7 +29,7 @@
             <img alt="Sewn on with needle and thread" src=""/>
         </fig>
         <lg>
-            <l n="1">But is sewn on with needle and thread.</l>
+            <l n="1">But is <act>sewn on</act> with needle and thread.</l>
         </lg>
         <pgNum n="234">[234]</pgNum>
     </pg>
