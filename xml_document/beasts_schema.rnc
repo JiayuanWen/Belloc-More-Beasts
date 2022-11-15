@@ -66,7 +66,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     #For poem pages
     title = element title {mixed{beast*},text}
     lg = element lg {l+} #lg=line group;l=line
-        poemElements = mixed{beast | emot | act | location | furn | neg | pos | desc | gen | num | BP | food}*
+        poemElements = mixed{beast | emot | act | location | furn | neg | pos | desc | gen | num | BP | food}*,text
         l = element l {n, poemElements}
             #Schema ideas goes below
             beast = element beast {poemElements}
