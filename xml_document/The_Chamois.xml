@@ -9,12 +9,12 @@
             <img alt="The Chamois" src=""/>
         </fig>
         <lg>
-            <l n="1">The Chamois inhabits</l>
-            <l n="2">Lucerne, where his habits</l>
-            <l n="3">(Though why I have not an idea-r)</l>
-            <l n="4">Give him sudden short <act>spasms</act></l>
+            <l n="1"><beast>The Chamois</beast><act> inhabits</act></l>
+            <l n="2"><location>Lucerne</location>, where his habits</l>
+            <l n="3">(Though why I <act>have not an idea-r</act>)</l>
+            <l n="4">Give <beast>him</beast> sudden short <act>spasms</act></l>
             <l n="5">On the brink of deep chasms,</l>
-            <l n="6">And he <act>lives</act> in perpetual fear.</l>
+            <l n="6">And he <act>lives</act> in perpetual <emot>fear</emot>.</l>
         </lg>
         <pgNum n="243">[243]</pgNum>
     </pg>
