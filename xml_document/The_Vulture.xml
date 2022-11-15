@@ -3,23 +3,31 @@
 
 <root>
     
-<title>The <beast>Vulture</beast></title>
-
-<lg>
-    
-    <l n="1">The <beast>Vulture</beast> <act>eats</act> between<gen> his</gen> <food>meals</food>,</l>
-<pgNum>[230]</pgNum>
-    <l n="2">And that's the reason why</l>
-    <l n="3">As well as you or I</l>
-    <l n="4"><gen>He </gen>very, very rarely <emot>feels</emot></l>
-    <l n="5">As well as you and I.</l>
-</lg>
-<lg>
-    <l n="6"><gen>His</gen> <BP>eye</BP> is <desc>dull</desc>, <gen>his</gen> <BP>head</BP> is <desc>bald</desc>,</l>
-    <l n="7"><gen>His</gen> <BP>neck</BP> is growing <desc>thinner</desc>.</l>
-    <l n="8">Oh! what a lesson for us all</l>
-    <l n="9">To only <act>eat</act> at <food>dinner</food>!</l>
-<pgNum>[231]</pgNum>
-</lg>
-    
+<pg ref="">
+    <title>The <beast>Vulture</beast></title>
+    <fig>
+        <img alt="The Vulture" src=""/>
+    </fig>
+    <lg>
+        <l n="1">The <beast>Vulture</beast> <act>eats</act> between<gen> his</gen> <food>meals</food>,</l>
+        <l n="2">And that's the reason why</l>
+    </lg>
+    <pgNum n="230">[230]</pgNum>
+</pg>
+<pg ref="">
+        <fig>
+            <img alt="As well as you or I" src=""/>
+        </fig>
+        <lg>
+            <l n="1"><gen>He </gen>very, very rarely <emot>feels</emot></l>
+            <l n="2">As well as you and I.</l>
+        </lg>
+        <lg>
+            <l n="1"><gen>His</gen> <BP>eye</BP> is <desc>dull</desc>, <gen>his</gen> <BP>head</BP> is <desc>bald</desc>,</l>
+            <l n="2"><gen>His</gen> <BP>neck</BP> is growing <desc>thinner</desc>.</l>
+            <l n="3">Oh! what a lesson for us all</l>
+            <l n="4">To only <act>eat</act> at <food>dinner</food>!</l>
+        </lg>
+        <pgNum n="231">[231]</pgNum>
+</pg>
 </root>
