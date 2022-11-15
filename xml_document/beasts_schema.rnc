@@ -1,21 +1,23 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
+#To teammates: new schema ideas goes below line 67.
+
 #Common elements
 
     #Images
     fig = element fig {img, imgDes?}
-    img = element img {alt, src}
-    alt = attribute alt {text} #Alt text, mini-title for the image
-    src = attribute src {xsd:anyURI} #URL or file path to image
-    imgDes = element imgDes {text} #Description of image; What's in the image, what the image describes.
+        img = element img {alt, src, imgText*}
+            alt = attribute alt {text} #Alt text, mini-title for the image
+            imgText = attribute imgText {text} #Text contained in the image
+        imgDes = element imgDes {text} #Description of image; What's in the image, what the image describes.
 
     #People
     person = element person {fstName, midName?, lstName, gender, role?, text}
-    fstName = attribute fstName {text} #First name    
-    lstName = attribute lstName {text} #Last name
-    midName = attribute midName {text} #Middle name
-    gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
-    role = attribute role {text}
+        fstName = attribute fstName {text} #First name    
+        lstName = attribute lstName {text} #Last name
+        midName = attribute midName {text} #Middle name
+        gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
+        role = attribute role {text}
 
     
     #Page number
@@ -28,9 +30,11 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     #Integer numbers
     n = attribute n {xsd:integer}
     
-    
     #Reference 
     ref = attribute ref {text} #Will change to reference data type later.
+    
+    #Source/link
+    src = attribute src {xsd:anyURI} #URL or file path to text, image, audio, video, or binary file.
 
 #End of Common attributes
 
@@ -40,17 +44,17 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     root = element root { ((bookCover & bookTitleAlt), pg+) | (pg+) }
 
     bookCover = element bookCover {fig?}
-
-    #'Alt' here stands for "alternative. In this case alternative book titles. 
-    bookTitleAlt = element bookTitleAlt {text}
+  
+    bookTitleAlt = element bookTitleAlt {text} #'Alt' here stands for "alternative. In this case alternative book titles. 
 
     pg = element pg {
         #This one is for title page(s).
         (ref, (bookTitle & person+ & publisher & dedicate & fig), pgNum) |
         
-        #This one will be for poem pages. To be completed
+        #This one will be for poem pages.
         (ref, title?, (lg+ & fig*), pgNum)
     }
+    
     #For title page(s)
     bookTitle = element bookTitle {text}
     publisher = element publisher {mixed{publisherName, publisherAddress}}
@@ -62,9 +66,11 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     title = element title {mixed{beast*},text}
     lg = element lg {l+} #lg=line group;l=line
         l = element l {n, mixed{beast*, emot*, act*, location*}}
-        beast = element beast {text}
-        emot = element emot {text}
-        act = element act {text}
-        location = element location {text}
+            #Schema ideas goes below
+            beast = element beast {text}
+            emot = element emot {text}
+            act = element act {text}
+            location = element location {text}
+            
 #End of Document schema
 
