@@ -59,7 +59,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     dedicate = element dedicate {mixed{person},text}
     
     #For poem pages
-    title = element title {mixed{beast},text}
+    title = element title {mixed{beast*},text}
     lg = element lg {l+} #lg=line group;l=line
         l = element l {n, mixed{beast*, emot*, act*, location*}}
         beast = element beast {text}
