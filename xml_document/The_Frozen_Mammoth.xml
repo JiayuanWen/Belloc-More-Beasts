@@ -19,10 +19,10 @@
             <img alt="Melting" src=""/>
         </fig>
         <lg>
-            <l n="1">It is <act>known</act> to the whole of that <people>primitive group</people></l>
+            <l n="1">It is <act>known</act> to the whole of that <person count="multiple" role="character">primitive group</person></l>
             <l n="2">That the <beast>carcass</beast> will <act>furnish an excellent soup</act>,</l>
             <l n="3">Though the <act>cooking it </act><act>offers</act> one drawback at least</l>
-            <l n="4">(Of a serious nature <people>I </people><act>own</act>):</l>
+            <l n="4">(Of a serious nature <person count="single" role="narrator">I </person><act>own</act>):</l>
         </lg>
         <pgNum n="245">[245]</pgNum>
     </pg>

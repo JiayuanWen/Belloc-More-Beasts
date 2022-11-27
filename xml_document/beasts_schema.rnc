@@ -12,13 +12,13 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
         imgDes = element imgDes {text} #Description of image; What's in the image, what the image describes.
 
     #People
-    person = element person {fstName, midName?, lstName, gender, role?, text}
+    person = element person {fstName?, midName?, lstName?, count, gender?, role?, text}
         fstName = attribute fstName {text} #First name    
         lstName = attribute lstName {text} #Last name
         midName = attribute midName {text} #Middle name
         gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
-        role = attribute role {text}
-
+        role = attribute role {"narrator" | "character"}
+        count = attribute count {"single" | "multiple"}
     
     #Page number
     pgNum = element pgNum {n, text}
@@ -43,7 +43,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     start = root
     root = element root { ((bookCover & bookTitleAlt & animal & text), pg+) | (pg+) }
 
-    bookCover = element bookCover {text}
+    bookCover = element bookCover {fig, text}
   
     bookTitleAlt = element bookTitleAlt {text} #'Alt' here stands for "alternative. In this case alternative book titles. 
 
@@ -66,7 +66,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     #For poem pages
     title = element title {mixed{beast*},text}
     lg = element lg {l+} #lg=line group;l=line
-        poemElements = mixed{beast | emot | act | location | furn | neg | pos | desc | gen | num | BP | food}*,text
+        poemElements = mixed{beast | emot | act | location | furn | neg | pos | desc | gen | num | BP | food | person}*,text
         l = element l {n, poemElements}
             #Schema ideas goes below
             beast = element beast {poemElements}
