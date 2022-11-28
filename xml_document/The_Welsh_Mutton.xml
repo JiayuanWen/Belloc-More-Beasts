@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
-
-
 <root>
- 
-<bookTitleAlt> The Welsh Mutton</bookTitleAlt>
-<bookCover></bookCover>
-<animal>The Cambrian Welsh</animal>
-The Cambrian Welsh or Mountain Sheep
-Is of the Ovine race,
-His conversation is not deep,
-But then—observe his face!
-[217] 
-<pg ref=""></pg>
+    <pg ref="">
+        <title> The Welsh Mutton</title>
+        <fig>
+            <img alt="The Cambrian Welsh" src=""/>
+        </fig>
+        <lg>
+            <l n="1">The Cambrian Welsh or Mountain Sheep</l>
+            <l n="2">Is of the Ovine race,</l>
+            <l n="3">His conversation is not deep,</l>
+            <l n="4">But then—observe his face!</l>
+        </lg>
+        <pgNum n="217">[217]</pgNum>
+    </pg>
 </root>
