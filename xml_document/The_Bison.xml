@@ -2,7 +2,6 @@
 
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <!--Encoder: Graydon Kupfer-->
     <pg ref="">
         <title><beast>The Bison</beast></title>
         <fig>
