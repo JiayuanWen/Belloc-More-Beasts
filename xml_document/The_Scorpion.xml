@@ -4,7 +4,9 @@
 <root>
 <pg ref="">
     <title>The <beast>Scorpion</beast></title>
-
+<fig>
+    <img alt="The Scorpion" src=""/>
+</fig>
     <lg>
         <l n="1">Out of <furn>bed</furn></l>
         <l n="2">The <beast>Scorpion</beast> is as <desc>black</desc> as soot,</l>
