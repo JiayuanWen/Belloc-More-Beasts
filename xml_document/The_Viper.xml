@@ -3,7 +3,10 @@
 
 <root>
     <pg ref="">
-        <title>The <beast>Viper</beast></title>
+        <title><beast>The Viper</beast></title>
+        <fig>
+            <img alt="TheViper1" src=""></img>
+        </fig>
         <lg>
         
             <l n="1">Yet another great truth I record in my verse,</l>
@@ -13,6 +16,9 @@
         <pgNum n="235">[235]</pgNum>
     </pg>
     <pg ref="">
+        <fig>
+            <img alt="TheViper2" src=""></img>
+        </fig>
         <lg>
             <l n="4">Procuring two <beast>vipers</beast></l>
             <l n="5">By procuring <num>two</num> Vipers, and letting them <neg>bite</neg>;</l>
@@ -20,6 +26,9 @@
         <pgNum n="236">[236]</pgNum>
     </pg>
     <pg ref="">
+        <fig>
+            <img alt="TheViper3" src=""></img>
+        </fig>
         <lg>
             <l n="6">A <emot>fright</emot></l>
             <l n="7">With the first you are only the worse for a <emot>fright</emot>,</l>
@@ -27,6 +36,9 @@
         <pgNum n="237">[237]</pgNum>
     </pg>
     <pg ref="">
+        <fig>
+            <img alt="TheViper4" src=""></img>
+        </fig>
         <lg>
             <l n="8">After the <num>second</num></l>
             <l n="9">But after the <num>second</num> you die.</l>
