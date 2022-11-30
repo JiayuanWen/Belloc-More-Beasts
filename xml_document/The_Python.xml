@@ -9,9 +9,9 @@
             <img alt="The Python" src=""/>
         </fig>
         <lg>
-            <l n="1">A <beast>Python</beast> I should not <act>advise</act>,—</l>
-            <l n="2">It needs a <person>doctor</person> for its eyes,</l>
-            <l n="3">And has the measles yearly.</l>
+            <l n="1">A <beast>Python</beast><person role="narrator" count="single"> I</person> should not <act>advise</act>,—</l>
+            <l n="2"><beast>It</beast><act> needs</act><person role="character" count="single"> a doctor</person> for its eyes,</l>
+            <l n="3">And <event con="neg">has the measles yearly.</event></l>
         </lg>
         <pgNum n="212">[212]</pgNum>
     </pg>
@@ -20,8 +20,8 @@
             <img alt="Subject it to music" src=""/>
         </fig>
         <lg>
-            <l n="1">However, if <person>you</person> feel inclined</l>
-            <l n="2">To get one (to <act>improve your mind</act>,</l>
+            <l n="1">However, if <person role="reader" count="single">you</person> feel inclined</l>
+            <l n="2">To get one (to <act con="pos">improve your mind</act>,</l>
             <l n="3">And not from fashion merely),</l>
             <l n="4"><act>Allow no music </act><location>near its cage</location>;</l>
         </lg>
@@ -32,8 +32,8 @@
             <img alt="Flies into a rage" src=""/>
         </fig>
         <lg>
-            <l n="1">And when it <act>flies into a <emot>rage</emot></act></l>
-            <l n="2"><act>Chastise</act> it, most severely.</l>
+            <l n="1">And when <beast>it </beast><act>flies into a <emot con="neg">rage</emot></act></l>
+            <l n="2"><act con="neg">Chastise</act><beast> it,</beast> most severely.</l>
         </lg>
         <fig>
             <img alt="An aunt in Yucatan" src=""/>
@@ -42,11 +42,11 @@
     </pg>
     <pg ref="">
         <lg>
-            <l n="1">I had an <person>aunt</person> in <location>Yucatan</location></l>
-            <l n="2">Who <act>bought</act> a <beast>Python</beast> from a <person>man</person></l>
-            <l n="3">And <act>kept it</act> for a <beast>pet</beast>.</l>
-            <l n="4"><gen>She </gen><act>died</act>, because she <act>never knew</act></l>
-            <l n="5">These simple little rules and few;—</l>
+            <l n="1"><person role="narrator" count="single">I</person> had an <person role="character" count="single" gender="f">aunt</person> in <location>Yucatan</location></l>
+            <l n="2">Who <act>bought</act> a <beast>Python</beast> from a <person role="character" count="single" gender="m">man</person></l>
+            <l n="3">And <act>kept it for a pet.</act></l>
+            <l n="4"><person role="character" count="single" gender="f">She </person><act con="neg">died</act>, because <person role="character" count="single" gender="f">she </person><act>never knew</act></l>
+            <l n="5">These <desc>simple little</desc> rules and few;—</l>
         </lg>
         <pgNum n="215">[215]</pgNum>
     </pg>
@@ -55,7 +55,7 @@
             <img alt="The snake" src=""/>
         </fig>
         <lg>
-            <l n="1">The <beast>Snake</beast> is <act>living</act> yet.</l>
+            <l n="1">The <beast>Snake</beast> is <act con="pos">living</act> yet.</l>
         </lg>
         <pgNum n="216">[216]</pgNum>
     </pg>

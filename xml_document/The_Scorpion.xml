@@ -3,16 +3,16 @@
 
 <root>
 <pg ref="">
-    <title>The <beast>Scorpion</beast></title>
+    <title><beast>The Scorpion</beast></title>
 <fig>
     <img alt="Scorpion" src=""/>
 </fig>
     <lg>
-        <l n="1">Out of <furn>bed</furn></l>
-        <l n="2">The <beast>Scorpion</beast> is as <desc>black</desc> as soot,</l>
-        <l n="3"><gen>He </gen>dearly loves to bite;</l>
-        <l n="4"><gen>He</gen> is a most unpleasant brute</l>
-        <l n="5">To find in <furn>bed</furn>, at night.</l>
+        <l n="1"><desc>Out of bed</desc></l>
+        <l n="2"><beast>The Scorpion</beast> is <desc>as black as soot,</desc></l>
+        <l n="3"><beast gender="m">He</beast><desc> dearly <emot con="pos">loves</emot> to <act con="neg">bite;</act></desc></l>
+        <l n="4"><beast gender="m">He</beast> is <desc con="neg">a most unpleasant brute</desc></l>
+        <l n="5"><act>To find in bed,</act><desc> at night.</desc></l>
     </lg>
     <pgNum n="221">[221]</pgNum>
     </pg>

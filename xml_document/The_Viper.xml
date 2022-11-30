@@ -9,9 +9,9 @@
         </fig>
         <lg>
         
-            <l n="1">Yet another great truth I record in my verse,</l>
-            <l n="2">That some<beast> Vipers</beast> are <neg>venomous</neg>, some the reverse;</l>
-            <l n="3">fact you may prove if you try,</l>
+            <l n="1">Yet another <desc con="pos">great</desc> truth <person role="narrator" count="single">I</person><act> record</act> in my verse,</l>
+            <l n="2">That some<beast> Vipers</beast> are <desc con="neg">venomous</desc>, some <desc con="pos">the reverse;</desc></l>
+            <l n="3">fact <person>you</person> may prove if you try,</l>
         </lg>
         <pgNum n="235">[235]</pgNum>
     </pg>

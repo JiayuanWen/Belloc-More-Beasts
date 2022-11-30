@@ -12,12 +12,12 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
         imgDes = element imgDes {text} #Description of image; What's in the image, what the image describes.
 
     #People
-    person = element person {fstName?, midName?, lstName?, count, gender?, role?, text}
+    person = element person {fstName?, midName?, lstName?, count, gender?, role, text}
         fstName = attribute fstName {text} #First name    
         lstName = attribute lstName {text} #Last name
         midName = attribute midName {text} #Middle name
         gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
-        role = attribute role {"narrator" | "character"}
+        role = attribute role {"narrator" | "reader" | "character" | "everyone"}
         count = attribute count {"single" | "multiple"}
     
     #Page number
@@ -66,20 +66,17 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     #For poem pages
     title = element title {mixed{beast*},text}
     lg = element lg {l+} #lg=line group;l=line
-        poemElements = mixed{beast | emot | act | location | furn | neg | pos | desc | gen | num | BP | food | person}*,text
+        poemElements = mixed{beast | emot | act | location | desc | num | event | person}*,text
         l = element l {n, poemElements}
             #Schema ideas goes below
-            beast = element beast {poemElements}
-            emot = element emot {poemElements}
-            act = element act {poemElements}
-            location = element location {poemElements}
-            neg = element neg {poemElements}
-            pos = element pos {poemElements}
-            furn = element furn {poemElements}
-            desc = element desc {poemElements}
-            gen = element gen {poemElements}
-           num = element num {poemElements}
-            BP = element BP {poemElements}
-            food = element food {poemElements}
+            beast = element beast {gender?, poemElements}
+            emot = element emot {con?, poemElements}
+            act = element act {con?, poemElements}
+            location = element location {con?, poemElements}
+            desc = element desc {con?, poemElements}
+            num = element num {n, poemElements}
+            event = element event {con?, poemElements}
+            
+            con = attribute con {"pos" | "neg"} #condition
 #End of Document schema
 

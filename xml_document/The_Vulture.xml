@@ -4,12 +4,12 @@
 <root>
     
 <pg ref="">
-    <title>The <beast>Vulture</beast></title>
+    <title><beast>The Vulture</beast></title>
     <fig>
         <img alt="The Vulture" src=""/>
     </fig>
     <lg>
-        <l n="1">The <beast>Vulture</beast> <act>eats</act> between<gen> his</gen> <food>meals</food>,</l>
+        <l n="1"><beast>The Vulture</beast><act> eats</act> between <beast gender="m">his </beast><event>meals,</event></l>
         <l n="2">And that's the reason why</l>
     </lg>
     <pgNum n="230">[230]</pgNum>
@@ -19,14 +19,14 @@
             <img alt="As well as you or I" src=""/>
         </fig>
         <lg>
-            <l n="1"><gen>He </gen>very, very rarely <emot>feels</emot></l>
-            <l n="2">As well as you and I.</l>
+            <l n="1"><beast gender="m">He</beast><desc con="neg"> very, very rarely <emot>feels</emot></desc></l>
+            <l n="2">As well as <person role="reader" count="single">you</person> and <person role="narrator" count="single">I.</person></l>
         </lg>
         <lg>
-            <l n="1"><gen>His</gen> <BP>eye</BP> is <desc>dull</desc>, his<BP>head</BP> is bald,</l>
-            <l n="2"><gen>His</gen> <BP>neck</BP> is growing <desc>thinner</desc>.</l>
-            <l n="3">Oh! what a lesson for us all</l>
-            <l n="4">To only <act>eat</act> at <food>dinner</food>!</l>
+            <l n="1"><desc><beast gender="m">His</beast> eye is dull, <beast gender="m">his</beast> head is bald,</desc></l>
+            <l n="2"><desc><beast gender="m">His</beast> neck is <act>growing thinner.</act></desc></l>
+            <l n="3">Oh! what a <event>lesson</event> for <person role="everyone" count="multiple">us all</person></l>
+            <l n="4">To only <act>eat</act> at <event>dinner</event>!</l>
         </lg>
         <pgNum n="231">[231]</pgNum>
     
