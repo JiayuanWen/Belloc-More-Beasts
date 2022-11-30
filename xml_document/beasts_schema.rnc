@@ -77,6 +77,6 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
             num = element num {n, poemElements}
             event = element event {con?, poemElements}
             
-            con = attribute con {"pos" | "neg"} #condition
+            con = attribute con {"pos" | "neg"} #connotation
 #End of Document schema
 
