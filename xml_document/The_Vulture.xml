@@ -19,7 +19,7 @@
             <img alt="As well as you or I" src=""/>
         </fig>
         <lg>
-            <l n="1"><beast gender="m">He</beast><desc con="neg"> very, very rarely <emot>feels</emot></desc></l>
+            <l n="1"><beast gender="m">He</beast><desc con="neg"><desc> very, very rarely </desc><emot>feels</emot></desc></l>
             <l n="2">As well as <person role="reader" count="single">you</person> and <person role="narrator" count="single">I.</person></l>
         </lg>
         <lg>
