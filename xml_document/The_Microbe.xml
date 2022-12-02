@@ -4,7 +4,7 @@
     <pg ref="">
         <title>The Microbe</title>
         <fig>
-            <img alt="The Microbe" src=""/>
+            <img alt="The Microbe" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe1.png"/>
         </fig>
         <lg>
             <l n="1">The <beast>Microbe</beast> is so very small</l>
@@ -20,7 +20,7 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="The microbe larger" src=""/>
+            <img alt="The microbe larger" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe2.png"/>
         </fig>
         <lg>
             <l n="1">On each of which a pattern stands,</l>
@@ -33,7 +33,7 @@
             <l n="8">What nobody is sure about!</l>
         </lg>
         <fig>
-            <img alt="The scientist" src=""/>
+            <img alt="The scientist" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe3.png"/>
         </fig>
     </pg>
 </root>

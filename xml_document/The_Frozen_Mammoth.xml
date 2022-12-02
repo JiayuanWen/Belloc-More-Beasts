@@ -5,7 +5,7 @@
     <pg ref="">
         <title><beast>The Frozen Mammoth</beast></title>
         <fig>
-            <img alt="The Mammoth" src=""/>
+            <img alt="The Mammoth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth1.png"/>
         </fig>
         <lg>
             <l n="1"><beast>This Creature</beast>, though rare, is still <act>found</act> to the <location>East</location></l>
@@ -15,7 +15,7 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="Melting" src=""/>
+            <img alt="Melting" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth2.png"/>
         </fig>
         <lg>
             <l n="1">It is <act>known</act> to the whole of that <person count="multiple" role="character">primitive group</person></l>
@@ -27,7 +27,7 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="Deflated mammoth" src=""/>
+            <img alt="Deflated mammoth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth3.png"/>
         </fig>
         <lg>
             <l n="1">If the <beast>skin</beast> be but <act>punctured</act> before it is <act>boiled</act>,</l>
@@ -37,7 +37,7 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="The dainty is unknown" src=""/>
+            <img alt="The dainty is unknown" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth4.png"/>
         </fig>
         <lg>
             <l n="1">And hence (on account of the size of the <beast>beast</beast>)</l>

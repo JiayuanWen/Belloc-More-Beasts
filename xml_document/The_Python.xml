@@ -51,7 +51,7 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="The snake" src=""/>
+            <img alt="The snake" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonliving.png"/>
         </fig>
         <lg>
             <l n="1">The <beast>Snake</beast> is <act con="pos">living</act> yet.</l>
