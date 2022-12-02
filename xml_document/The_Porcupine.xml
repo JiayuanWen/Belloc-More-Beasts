@@ -4,21 +4,22 @@
 <!-- XPath command to merge later: //root/* -->
 
 <root>
-
     <pg ref="">
         <title>The Porcupine</title>
         <fig>
-            <img alt="Porcupine" src=""/>
+            <img alt="Porcupine"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine.png"
+            />
         </fig>
         <lg>
             <l n="1">What! would you <act>slap</act> the Porcupine?</l>
             <l n="2">Unhappy child—desist!</l>
             <l n="3">Alas! that any friend of mine</l>
-            <l n="4">Should turn Tupto-philist.[B]</l>
+            <l n="4">Should turn Tupto-philist.<noteref letter="B">[B]</noteref></l>
         </lg>
         <pgNum n="218">[218]</pgNum>
     </pg>
-    <pg ref="">    
+    <pg ref="">
         <fig>
             <img alt="To strike the creature" src=""/>
         </fig>
@@ -38,8 +39,9 @@
         </lg>
         <pgNum n="220">[220]</pgNum>
     </pg>
-
-<!-- Footnote will be encoded later -->
-FOOTNOTE:
-[B] From τυπτω=I strike; φιλεω=I love; one that loves to strike. The word is not found in classical Greek, nor does it occur among the writers of the Renaissance—nor anywhere else.
+    <!-- Footnote will be encoded later -->
+    <foot> FOOTNOTE: <def><noteref letter="B">[B]</noteref> From τυπτω=I strike; φιλεω=I love; one
+            that loves to strike. The word is not found in classical Greek, nor does it occur among
+            the writers of the Renaissance—nor anywhere else.</def>
+    </foot>
 </root>

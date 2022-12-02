@@ -2,11 +2,10 @@
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <root>
-    <!--Encoder: Graydon Kupfer-->
     <pg ref="">
         <title><beast>The Python</beast></title>
         <fig>
-            <img alt="The Python" src=""/>
+            <img alt="The Python" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/menwithpython.png"/>
         </fig>
         <lg>
             <l n="1">A <beast>Python</beast><person role="narrator" count="single"> I</person> should not <act>advise</act>,—</l>
@@ -17,7 +16,7 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="Subject it to music" src=""/>
+            <img alt="Subject it to music" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythoninglass.png"/>
         </fig>
         <lg>
             <l n="1">However, if <person role="reader" count="single">you</person> feel inclined</l>
@@ -29,14 +28,14 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="Flies into a rage" src=""/>
+            <img alt="Flies into a rage" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonwhip.png"/>
         </fig>
         <lg>
             <l n="1">And when <beast>it </beast><act>flies into a <emot con="neg">rage</emot></act></l>
             <l n="2"><act con="neg">Chastise</act><beast> it,</beast> most severely.</l>
         </lg>
         <fig>
-            <img alt="An aunt in Yucatan" src=""/>
+            <img alt="An aunt in Yucatan" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonmountain.png"/>
         </fig>
         <pgNum n="214">[214]</pgNum>
     </pg>

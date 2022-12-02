@@ -6,7 +6,7 @@
 <pg ref="">
     <title><beast>The Vulture</beast></title>
     <fig>
-        <img alt="The Vulture" src=""/>
+        <img alt="The Vulture" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture1.PNG"/>
     </fig>
     <lg>
         <l n="1"><beast>The Vulture</beast><act> eats</act> between <beast gender="m">his </beast><event>meals,</event></l>
@@ -16,7 +16,7 @@
 </pg>
 <pg ref="">
         <fig>
-            <img alt="As well as you or I" src=""/>
+            <img alt="As well as you or I" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture2.PNG"/>
         </fig>
         <lg>
             <l n="1"><beast gender="m">He</beast><desc con="neg"><desc> very, very rarely </desc><emot>feels</emot></desc></l>

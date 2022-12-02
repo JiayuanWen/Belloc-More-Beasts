@@ -16,7 +16,9 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="An idle child" src=""/>
+            <img alt="An idle child"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/manreading.png"
+            />
         </fig>
         <lg>
             <l n="1">"An idle little child like this,</l>
@@ -32,21 +34,25 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="The lion" src=""/>
+            <img alt="The lion"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/lionsreading.png"
+            />
         </fig>
         <lg>
             <l n="1">To answer why the Guinea-pig</l>
             <l n="2">Is born without a tail.</l>
         </lg>
         <lg>
-            <l n="1">Or why the Wanderoo[A] should rant</l>
+            <l n="1">Or why the Wanderoo<noteref letter="A">[A]</noteref> should rant</l>
             <l n="2">In wild, unmeaning rhymes,</l>
         </lg>
         <pgNum n="208">[208]</pgNum>
     </pg>
     <pg ref="">
         <fig>
-            <img alt="Indian elephant reading The Times" src=""/>
+            <img alt="Indian elephant reading The Times"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/elephantreading.png"
+            />
         </fig>
         <lg>
             <l n="1">Whereas the Indian Elephant</l>
@@ -56,7 +62,8 @@
     </pg>
     <pg ref="">
         <fig>
-            <img alt="Interviewed the Pelican" src=""/>
+            <img alt="Interviewed the Pelican"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pelican.png"/>
         </fig>
         <lg>
             <l n="1">Perhaps he found a way to slip</l>
@@ -83,4 +90,7 @@
             <l n="4">But for this little book."</l>
         </lg>
         <pgNum n="211">[211]</pgNum>
-    </pg> FOOTNOTE: [A] Sometimes called the "Lion-tailed or tufted Baboon of Ceylon." </root>
+    </pg>
+    <foot>FOOTNOTE: <def><noteref letter="A">[A]</noteref> Sometimes called the "Lion-tailed or
+            tufted Baboon of Ceylon."</def></foot>
+</root>

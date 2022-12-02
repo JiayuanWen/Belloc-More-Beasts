@@ -41,7 +41,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 #Document schema
 
     start = root
-    root = element root { ((bookCover & bookTitleAlt & animal & text), pg+) | (pg+) }
+    root = element root { ((bookCover & bookTitleAlt & animal & text), pg+, foot?) | (pg+) }
 
     bookCover = element bookCover {fig, text}
   
@@ -49,10 +49,10 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
     pg = element pg { 
         #This one is for title page(s).
-        (ref, (bookTitle & person+ & publisher & dedicate & fig), pgNum) |
+        (ref, (bookTitle & person+ & publisher & dedicate & fig), pgNum?) |
         
         #This one will be for poem pages.
-        (ref, title?, (lg+ & fig*), pgNum) 
+        (ref, title?, (lg+ & fig*), pgNum?) 
     }
    animal = element animal {text}
    
@@ -66,7 +66,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
     #For poem pages
     title = element title {mixed{beast*},text}
     lg = element lg {l+} #lg=line group;l=line
-        poemElements = mixed{beast | emot | act | location | desc | num | event | person}*,text
+        poemElements = mixed{beast | emot | act | location | desc | num | event | person | noteref}*,text
         l = element l {n, poemElements}
             #Schema ideas goes below
             beast = element beast {gender?, poemElements}
@@ -78,5 +78,10 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
             event = element event {con?, poemElements}
             
             con = attribute con {"pos" | "neg"} #connotation
+            
+            foot = element foot {text, def} #footnote
+            def = element def {noteref, text} #definition
+            noteref = element noteref {text, letter} #reference to footnote
+            letter = attribute letter {"A" | "B"}
 #End of Document schema
 
