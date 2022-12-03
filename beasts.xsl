@@ -54,10 +54,18 @@
     </xsl:template>
     
     <!-- Text view rules -->
-    <xsl:template match="root/pg/lg"> <!-- Wrap every line group with <p> -->
-        <pre><xsl:apply-templates/></pre>
+    <xsl:template match="root/pg/title"> <!-- Wrap every line group with <p> -->
+        <h2><xsl:apply-templates/></h2>
     </xsl:template>
-    
+    <xsl:template match="root/pg/lg"> <!-- Wrap every line group with <p> -->
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="root/pg/lg/l"> <!-- Line break after each line -->
+        <xsl:apply-templates/><br/>
+    </xsl:template>
+    <xsl:template match="root/pg/pgNum"> <!-- Line break after page number -->
+        <xsl:apply-templates/><br/><br/>
+    </xsl:template>
     
     <!-- ToC rules-->
     <xsl:template match="root" mode="toc">
