@@ -12,13 +12,21 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
         imgDes = element imgDes {text} #Description of image; What's in the image, what the image describes.
 
     #People
-    person = element person {fstName?, midName?, lstName?, count, gender?, role, text}
+    person = element person {fstName?, midName?, lstName?, count?, gender?, role, text}
         fstName = attribute fstName {text} #First name    
         lstName = attribute lstName {text} #Last name
         midName = attribute midName {text} #Middle name
         gender = attribute gender {"m" | "f" | "x" | "u"} #"x" other gender, "u" unknown
-        role = attribute role {"narrator" | "reader" | "character" | "everyone"}
+        role = attribute role {"narrator" | "reader" | "character" | "everyone" | "dedocated"}
         count = attribute count {"single" | "multiple"}
+        
+    #Authors
+    author = element author {fstName?, midName?, lstName?, gender?, contri, text}
+        #fstName = attribute fstName {text} #First name    
+        #lstName = attribute lstName {text} #Last name
+        #midName = attribute midName {text} #Middle name
+        #gender = attribute gender {"m" | "f" | "x" | "u"} 
+        contri = attribute contri {"writer" | "illustrator"} #Author's contribution to the book
     
     #Page number
     pgNum = element pgNum {n, text}
@@ -41,7 +49,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 #Document schema
 
     start = root
-    root = element root { ((bookCover & bookTitleAlt & animal & text), pg+, foot?) | (pg+) }
+    root = element root { ((bookCover & bookTitleAlt & text), pg+, foot?) | (pg+) }
 
     bookCover = element bookCover {fig, text}
   
@@ -49,12 +57,11 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
     pg = element pg { 
         #This one is for title page(s).
-        (ref, (bookTitle & person+ & publisher & dedicate & fig), pgNum?) |
+        (ref, (bookTitle & author+ & publisher & dedicate & fig*), pgNum?) |
         
         #This one will be for poem pages.
         (ref, title?, (lg+ & fig*), pgNum?) 
     }
-   animal = element animal {text}
    
     #For title page(s)
     bookTitle = element bookTitle {text}
