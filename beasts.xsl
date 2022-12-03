@@ -54,8 +54,8 @@
     </xsl:template>
     
     <!-- Text view rules -->
-    <xsl:template match="root/pg/title"> <!-- <h1> on poem titles -->
-        <h2><a href="#top"><xsl:apply-templates/></a></h2>
+    <xsl:template match="root/pg/title"> <!-- <h2> on poem titles -->
+        <h2 id="{//pg/@ref => distinct-values()}"><a href="#top"><xsl:apply-templates/></a></h2>
     </xsl:template>
     <xsl:template match="root/pg/lg"> <!-- Wrap every line group with <p> -->
         <p><xsl:apply-templates/></p>
@@ -71,8 +71,8 @@
     <xsl:template match="root" mode="toc">
         <tr>
             <td class="table-title">
-                <h2 id="#c-{count(preceding::root) + 1}">
-                    <a href="#c-{count(preceding::root) + 1}"><xsl:apply-templates select="pg/title" mode="toc"/></a>
+                <h2 >
+                    <a href="#{//pg/@ref => distinct-values()}"><xsl:apply-templates select="pg/title" mode="toc"/></a>
                 </h2>
             </td>
             <td class="table-page">
