@@ -17,14 +17,14 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Behrend Travel Letters</title>
+                <title>DIGIT 110 | <xsl:apply-templates select="$poemColl//bookTitle"/></title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="stylesheet" type="text/css" href="beast.css"/>
                 
             </head>
             <body>
                 <!-- Title -->
-                <h1><xsl:apply-templates select="$poemColl//bookTitle"/></h1>
+                <h1 id="top"><xsl:apply-templates select="$poemColl//bookTitle"/></h1>
                 
                 <!-- Table of Contents (Further implementation at ToC rules below) -->
                 <section id="toc">
@@ -54,8 +54,8 @@
     </xsl:template>
     
     <!-- Text view rules -->
-    <xsl:template match="root/pg/title"> <!-- Wrap every line group with <p> -->
-        <h2><xsl:apply-templates/></h2>
+    <xsl:template match="root/pg/title"> <!-- <h2> on poem titles -->
+        <h2 id="{//pg/@ref => distinct-values()}"><a href="#top"><xsl:apply-templates/></a></h2>
     </xsl:template>
     <xsl:template match="root/pg/lg"> <!-- Wrap every line group with <p> -->
         <p><xsl:apply-templates/></p>
@@ -63,7 +63,7 @@
     <xsl:template match="root/pg/lg/l"> <!-- Line break after each line -->
         <xsl:apply-templates/><br/>
     </xsl:template>
-    <xsl:template match="root/pg/pgNum"> <!-- Line break after page number -->
+    <xsl:template match="root/pg/pgNum"> <!-- Line break after page number to prevent content overlapping with that of next page-->
         <xsl:apply-templates/><br/><br/>
     </xsl:template>
     
@@ -71,8 +71,8 @@
     <xsl:template match="root" mode="toc">
         <tr>
             <td class="table-title">
-                <h2 id="#c-{count(preceding::root) + 1}">
-                    <a href="#c-{count(preceding::root) + 1}"><xsl:apply-templates select="pg/title" mode="toc"/></a>
+                <h2 >
+                    <a href="#{//pg/@ref => distinct-values()}"><xsl:apply-templates select="pg/title" mode="toc"/></a>
                 </h2>
             </td>
             <td class="table-page">
