@@ -5,7 +5,7 @@
 
 <root>
     
-    <pg ref="">
+    <pg ref="crocodile">
         <title><beast>The Crocodile</beast></title>
         <fig>
             <img alt="The Crocodile" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile.png"/>
@@ -20,7 +20,7 @@
         <pgNum n="222">[222]</pgNum>
     </pg>
     
-    <pg ref="">    
+    <pg ref="crocodile">    
         <fig>
             <img alt="The Missionary 1" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile2.png"/>
         </fig>
@@ -34,7 +34,7 @@
         <pgNum n="223">[223]</pgNum>
     </pg>
     
-    <pg ref="">
+    <pg ref="crocodile">
         <fig>
             <img alt="The Missionary 2" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile3.png"/>
         </fig>
@@ -47,7 +47,7 @@
         <pgNum n="224">[224]</pgNum>
     </pg>
     
-    <pg ref="">
+    <pg ref="crocodile">
         <fig>
             <img alt="he start and leap amain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile4.png"/>
         </fig>
@@ -57,7 +57,7 @@
         <pgNum n="225">[225]</pgNum>
     </pg>
     
-    <pg ref="">
+    <pg ref="crocodile">
         <fig>
             <img alt="Scour the sandy Libyan plain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile5.png"/>
         </fig>
@@ -67,7 +67,7 @@
         <pgNum n="226">[226]</pgNum>
     </pg>
     
-    <pg ref="">
+    <pg ref="crocodile">
         <fig>
             <img alt="Like one who wants to catch a train" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile6.png"/>
         </fig>
@@ -77,7 +77,7 @@
         <pgNum n="227">[227]</pgNum>
     </pg>
     
-    <pg ref="">
+    <pg ref="crocodile">
         <fig>
             <img alt="Or wrestles with internal pain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile7.png"/>
         </fig>
@@ -86,7 +86,7 @@
         </lg>
         <pgNum n="228">[228]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="crocodile">
         <fig>
             <img alt="Egg-cup" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile8.png"/>
         </fig>

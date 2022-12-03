@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <pg ref="">
+    <pg ref="mutton">
         <title><beast>The Welsh Mutton</beast></title>
         <fig>
             <img alt="The Cambrian Welsh" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/WelshMutton.png"/>

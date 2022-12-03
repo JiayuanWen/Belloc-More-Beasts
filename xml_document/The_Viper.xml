@@ -2,7 +2,7 @@
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <root>
-    <pg ref="">
+    <pg ref="viper">
         <title><beast>The Viper</beast></title>
         <fig>
             <img alt="The Viper" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper1.PNG"></img>
@@ -14,7 +14,7 @@
         </lg>
         <pgNum n="235">[235]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="viper">
         <fig>
             <img alt="Procuring two vipers" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper2.PNG"></img>
         </fig>
@@ -23,7 +23,7 @@
         </lg>
         <pgNum n="236">[236]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="viper">
         <fig>
             <img alt="A fright" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper3.PNG"></img>
         </fig>
@@ -32,7 +32,7 @@
         </lg>
         <pgNum n="237">[237]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="viper">
         <fig>
             <img alt="After the second" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper4.PNG"></img>
         </fig>

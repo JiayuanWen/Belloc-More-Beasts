@@ -2,19 +2,18 @@
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <root>
-    
-<pg ref="">
-    <title><beast>The Vulture</beast></title>
-    <fig>
-        <img alt="The Vulture" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture1.PNG"/>
-    </fig>
-    <lg>
-        <l n="1"><beast>The Vulture</beast><act> eats</act> between <beast gender="m">his </beast><event>meals,</event></l>
-        <l n="2">And that's the reason why</l>
-    </lg>
-    <pgNum n="230">[230]</pgNum>
-</pg>
-<pg ref="">
+    <pg ref="vulture">
+        <title><beast>The Vulture</beast></title>
+        <fig>
+            <img alt="The Vulture" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture1.PNG"/>
+        </fig>
+        <lg>
+            <l n="1"><beast>The Vulture</beast><act> eats</act> between <beast gender="m">his </beast><event>meals,</event></l>
+            <l n="2">And that's the reason why</l>
+        </lg>
+        <pgNum n="230">[230]</pgNum>
+    </pg>
+    <pg ref="vulture">
         <fig>
             <img alt="As well as you or I" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture2.PNG"/>
         </fig>
@@ -30,5 +29,5 @@
         </lg>
         <pgNum n="231">[231]</pgNum>
     
-</pg>
+    </pg>
 </root>
