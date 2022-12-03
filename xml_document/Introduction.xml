@@ -2,7 +2,7 @@
 
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <pg ref="">
+    <pg ref="intro">
         <title>INTRODUCTION</title>
         <lg>
             <l n="1">The <person>parents</person> of the <desc>learned </desc><person>child</person></l>
@@ -14,7 +14,7 @@
         </lg>
         <pgNum n="206">[206]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="intro">
         <fig>
             <img alt="An idle child"
                 src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/manreading.png"
@@ -32,7 +32,7 @@
         </lg>
         <pgNum n="207">[207]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="intro">
         <fig>
             <img alt="The lion"
                 src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/lionsreading.png"
@@ -48,7 +48,7 @@
         </lg>
         <pgNum n="208">[208]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="intro">
         <fig>
             <img alt="Indian elephant reading The Times"
                 src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/elephantreading.png"
@@ -60,7 +60,7 @@
         </lg>
         <pgNum n="209">[209]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="intro">
         <fig>
             <img alt="Interviewed the Pelican"
                 src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pelican.png"/>
@@ -79,7 +79,7 @@
         </lg>
         <pgNum n="210">[210]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="intro">
         <fig>
             <img alt="This little book" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/book.png"/>
         </fig>
