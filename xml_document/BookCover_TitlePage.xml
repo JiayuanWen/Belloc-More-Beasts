@@ -23,17 +23,17 @@
         (For WORSE CHILDREN)
     </bookTitle>
 
-    <person fstName="Hilaire" lstName="Belloc" gender="m" role="writer">
+    <author fstName="Hilaire" lstName="Belloc" gender="m" contri="writer">
         VERSES
         BY
         H.B.
-    </person>
+    </author>
 
-    <person fstName="Basil" midName="Temple" lstName="Blackwood" gender="m" role="illustrator">
+    <author fstName="Basil" midName="Temple" lstName="Blackwood" gender="m" contri="illustrator">
         PICTURES
         BY
         B.T.B.
-    </person>
+    </author>
 
     <publisher>
         LONDON:
@@ -45,7 +45,7 @@
         DEDICATION.
         Divider 
         To
-        <person fstName="Alice" midName="Wolcott" lstName="Brinley" gender="f">Miss ALICE WOLCOTT BRINLEY</person>,
+        <person fstName="Alice" midName="Wolcott" lstName="Brinley" gender="f" role="dedocated">Miss ALICE WOLCOTT BRINLEY</person>,
         Of Philadelphia.
     </dedicate>
     <fig>
