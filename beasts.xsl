@@ -40,6 +40,9 @@
                     <xsl:apply-templates select="$poemColl//root"/>
                     
                 </section>
+                <section id="copyright">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="GNU Public License e" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+                </section>
             </body>
         </html>
     </xsl:template>
