@@ -66,6 +66,9 @@
     <xsl:template match="root/pg/pgNum"> <!-- Line break after page number to prevent content overlapping with that of next page-->
         <xsl:apply-templates/><br/><br/>
     </xsl:template>
+    <xsl:template match="root/pg/fig"> <!-- Deal with images-->
+        <img alt="temp" src="{img/@src}"/>
+    </xsl:template>
     
     <!-- ToC rules-->
     <xsl:template match="root" mode="toc">
