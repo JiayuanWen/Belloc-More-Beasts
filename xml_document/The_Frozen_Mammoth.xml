@@ -2,7 +2,7 @@
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <root>
-    <pg ref="">
+    <pg ref="mammoth">
         <title><beast>The Frozen Mammoth</beast></title>
         <fig>
             <img alt="The Mammoth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth1.png"/>
@@ -13,7 +13,7 @@
         </lg>
         <pgNum n="244">[244]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="mammoth">
         <fig>
             <img alt="Melting" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth2.png"/>
         </fig>
@@ -25,7 +25,7 @@
         </lg>
         <pgNum n="245">[245]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="mammoth">
         <fig>
             <img alt="Deflated mammoth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth3.png"/>
         </fig>
@@ -35,7 +35,7 @@
         </lg>
         <pgNum n="246">[246]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="mammoth">
         <fig>
             <img alt="The dainty is unknown" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth4.png"/>
         </fig>

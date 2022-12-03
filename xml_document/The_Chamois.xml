@@ -2,7 +2,7 @@
 
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <pg ref="">
+    <pg ref="chamois">
         <title><beast>The Chamois</beast></title>
         <fig>
             <img alt="The Chamois" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/chamois.png"/>

@@ -5,7 +5,7 @@
 
 <root>
 
-    <pg ref="">
+    <pg ref="llama">
         <title>The <beast>Llama</beast></title>
         <fig>
             <img alt="The Llama" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama1.png"/>
@@ -17,7 +17,7 @@
         </lg>
         <pgNum n="239">[239]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="llama">
         <fig>
             <img alt="Find it in the atlas" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama2.png"/>
         </fig>
@@ -28,7 +28,7 @@
         </lg>
         <pgNum n="240">[240]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="llama">
         <fig>
             <img alt="Lord of Turkestan" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama3.png"/>
         </fig>
@@ -39,7 +39,7 @@
         </lg>
         <pgNum n="241">[241]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="llama">
         <fig>
             <img alt="The ruminant" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama4.png"/>
         </fig>

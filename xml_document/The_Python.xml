@@ -2,7 +2,7 @@
 <?xml-model href="beasts_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <root>
-    <pg ref="">
+    <pg ref="python">
         <title><beast>The Python</beast></title>
         <fig>
             <img alt="The Python" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/menwithpython.png"/>
@@ -14,7 +14,7 @@
         </lg>
         <pgNum n="212">[212]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="python">
         <fig>
             <img alt="Subject it to music" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythoninglass.png"/>
         </fig>
@@ -26,7 +26,7 @@
         </lg>
         <pgNum n="213">[213]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="python">
         <fig>
             <img alt="Flies into a rage" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonwhip.png"/>
         </fig>
@@ -39,7 +39,7 @@
         </fig>
         <pgNum n="214">[214]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="python">
         <lg>
             <l n="1"><person role="narrator" count="single">I</person> had an <person role="character" count="single" gender="f">aunt</person> in <location>Yucatan</location></l>
             <l n="2">Who <act>bought</act> a <beast>Python</beast> from a <person role="character" count="single" gender="m">man</person></l>
@@ -49,7 +49,7 @@
         </lg>
         <pgNum n="215">[215]</pgNum>
     </pg>
-    <pg ref="">
+    <pg ref="python">
         <fig>
             <img alt="The snake" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonliving.png"/>
         </fig>
