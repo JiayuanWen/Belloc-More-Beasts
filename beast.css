@@ -143,3 +143,12 @@ max-width:1000px;
 }
 section.textAnalysis figure figcaption {flex:1;
 ;}
+
+/* Span Elements */
+
+span.beast {color:blue;}
+span.person {color:orange;}
+span.location {color:purple;}
+span.pos {color:green;}
+span.neg {color:red;}
+span.neutral {color:yellow;}
