@@ -84,4 +84,42 @@
         </tr>
     </xsl:template>
     
+    <!-- Element Highlights -->
+    
+    <xsl:template match="beast">
+        <span class="beast">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="person">
+        <span class="person">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="location">
+        <span class="location">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="emot | act | desc | event[@con='pos']">
+        <span class="pos">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="emot | act | desc | event[@con='neg']">
+        <span class="neg">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="emot | act | desc | event">
+        <span class="neutral">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
 </xsl:stylesheet>
