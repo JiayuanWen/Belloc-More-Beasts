@@ -19,16 +19,49 @@
             <head>
                 <title>DIGIT 110 | <xsl:apply-templates select="$poemColl//bookTitle"/></title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="stylesheet" type="text/css" href="beast.css"/>
+                <link rel="stylesheet" type="text/css" href="style.css"/>
                 
             </head>
             <body>
+                <!-- Credit: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+                <button onclick="topFunction()" id="to-top" title="Go to top"><img alt="up arrow" src="https://cdn.onlinewebfonts.com/svg/img_231938.png" width="30"/></button>
+                <script>
+                    // Get the button
+                    let mybutton = document.getElementById("to-top");
+                    
+                    // When the user scrolls down 20px from the top of the document, show the button
+                    window.onscroll = function() {scrollFunction()};
+                    
+                    function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                    } else {
+                    mybutton.style.display = "none";
+                    }
+                    }
+                    
+                    // When the user clicks on the button, scroll to the top of the document
+                    function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                    }
+                </script>
+                
+                <nav id="menu">
+                    <a href="index.html"><div class="button">Home</div></a>
+                    <a href="fulltext.html"><div class="button">Fulltext</div></a>
+                    <a href="gallery.html"><div class="button">Gallery</div></a>
+                    <a href="bio.html"><div class="button">Biography</div></a>
+                    <a href="https://github.com/JiayuanWen/Belloc-More-Beasts"><div class="button">Github <img alt="github icon" src="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" width="15"/></div></a>
+                    <a href="https://www.gutenberg.org/cache/epub/27176/pg27176-images.html"><div class="button">Project Gutenberg</div></a>
+                </nav>
+                
                 <!-- Title -->
                 <h1 id="top"><xsl:apply-templates select="$poemColl//bookTitle"/></h1>
                 
                 <!-- Table of Contents (Further implementation at ToC rules below) -->
                 <section id="toc">
-                    <h2>Table of Contents</h2>
+                    <h2 id="toc">Table of Contents</h2>
                     <table> 
                         <tr>
                             <th>Title</th>
@@ -67,7 +100,7 @@
         <xsl:apply-templates/><br/><br/>
     </xsl:template>
     <xsl:template match="root/pg/fig"> <!-- Deal with images-->
-        <img alt="temp" src="{img/@src}"/>
+        <img alt="{img/@alt}" src="{img/@src}"/>
     </xsl:template>
     
     <!-- ToC rules-->
