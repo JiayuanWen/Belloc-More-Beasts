@@ -116,10 +116,4 @@
         </span>
     </xsl:template>
     
-    <xsl:template match="emot | act | desc | event">
-        <span class="neutral">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
 </xsl:stylesheet>
