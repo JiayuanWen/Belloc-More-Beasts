@@ -231,3 +231,9 @@ section.textAnalysis figure img {flex:5;
 }
 section.textAnalysis figure figcaption {flex:1;
 ;}
+
+span.beast {color:blue;}
+span.person {color:orange;}
+span.location {color:purple;}
+span.pos {color:green;}
+span.neg {color:red;}
