@@ -1,19 +1,47 @@
 <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <title>DIGIT 110 | 
-        MORE BEASTS
-        (For WORSE CHILDREN)
-    </title>
+      <title>Fulltext - More Beasts (For Worse Children)</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link rel="stylesheet" type="text/css" href="beast.css"/>
+      <link rel="stylesheet" type="text/css" href="style.css"/>
    </head>
    <body>
-      <h1 id="top">
-         MORE BEASTS
-         (For WORSE CHILDREN)
-         </h1>
+      <!-- Credit: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+      <button onclick="topFunction()" id="to-top" title="Go to top"><img alt="up arrow" src="https://cdn.onlinewebfonts.com/svg/img_231938.png" width="30"/></button>
+      <script>
+         // Get the button
+         let mybutton = document.getElementById("to-top");
+         
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+      
+      <nav id="menu">
+         <a href="index.html"><div class="button">Home</div></a>
+         <a href="fulltext.html"><div class="button">Fulltext</div></a>
+         <a href="gallery.html"><div class="button">Gallery</div></a>
+         <a href="bio.html"><div class="button">Biography</div></a>
+         <a href="about.html"><div class="button">About</div></a>
+         <a href="https://github.com/JiayuanWen/Belloc-More-Beasts"><div class="button">Github <img alt="github icon" src="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" width="15"/></div></a>
+         <a href="https://www.gutenberg.org/cache/epub/27176/pg27176-images.html"><div class="button">Project Gutenberg</div></a>
+      </nav>
+      
+      <h1 id="top">More Beasts (For Worse Children)</h1>
       <section id="toc">
-         <h2>Table of Contents</h2>
+         <h2 id="toc">Table of Contents</h2>
          <table>
             <tr>
                <th>Title</th>
@@ -152,7 +180,7 @@
          <span class="person">Miss ALICE WOLCOTT BRINLEY</span>,
          Of Philadelphia.
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/morebeast.png"/>
+         <img alt="title page image" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/morebeast.png"/>
          
          [205]<br/><br/>
          
@@ -172,7 +200,7 @@
          [206]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/manreading.png"/>
+         <img alt="An idle child" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/manreading.png"/>
          
          <p>
             "An <span class="neg">idle little</span><span class="person"> child</span> like this,<br/>
@@ -188,7 +216,7 @@
          [207]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/lionsreading.png"/>
+         <img alt="The lion" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/lionsreading.png"/>
          
          <p>
             To <span class="neg">answer</span> why the <span class="beast">Guinea-pig</span><br/>
@@ -202,7 +230,7 @@
          [208]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/elephantreading.png"/>
+         <img alt="Indian elephant reading The Times" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/elephantreading.png"/>
          
          <p>
             Whereas the <span class="beast">Indian Elephant</span><br/>
@@ -211,7 +239,7 @@
          [209]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pelican.png"/>
+         <img alt="Interviewed the Pelican" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pelican.png"/>
          
          <p>
             Perhaps <span class="beast">he </span><span class="neg">found a way to slip</span><br/>
@@ -229,7 +257,7 @@
          [210]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/book.png"/>
+         <img alt="This little book" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/book.png"/>
          
          <p>
             "Oh! no," <span class="neg">said <span class="beast">he,</span><span class="neg"> in humble tone,</span></span><br/>
@@ -245,7 +273,7 @@
          
          
          <h2 id="bison"><a href="#top"><span class="beast">The Bison</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison1.png"/>
+         <img alt="The Bison" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison1.png"/>
          
          <p>
             <span class="beast">The Bison</span> is <span class="neg">vain,</span> and (<span class="person">I </span><span class="neg">write it</span><span class="neg"> with pain)</span><br/>
@@ -254,7 +282,7 @@
          [232]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison2.png"/>
+         <img alt="The opulent growth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison2.png"/>
          
          <p>
             Is not, as some <span class="neg">learned </span>professors <span class="neg">maintain,</span><br/>
@@ -263,7 +291,7 @@
          [233]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison3.png"/>
+         <img alt="Sewn on with needle and thread" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison3.png"/>
          
          <p>
             But is <span class="neg"><span class="neg">sewn on</span> with needle and thread.</span><br/>
@@ -274,7 +302,7 @@
          
          
          <h2 id="chamois"><a href="#top"><span class="beast">The Chamois</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/chamois.png"/>
+         <img alt="The Chamois" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/chamois.png"/>
          
          <p>
             <span class="beast">The Chamois</span><span class="neg"> inhabits</span><br/>
@@ -291,7 +319,7 @@
          
          
          <h2 id="crocodile"><a href="#top"><span class="beast">The Crocodile</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile.png"/>
+         <img alt="The Crocodile" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile.png"/>
          
          <p>
             Whatever our faults, we can always <span class="neg">engage</span><br/>
@@ -304,7 +332,7 @@
          
          
              
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile2.png"/>
+         <img alt="The Missionary 1" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile2.png"/>
          
          <p>
             And oft in some far Coptic town<br/>
@@ -317,7 +345,7 @@
          
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile3.png"/>
+         <img alt="The Missionary 2" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile3.png"/>
          
          <p>
             When suddenly the rigid frown<br/>
@@ -329,7 +357,7 @@
          
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile4.png"/>
+         <img alt="he start and leap amain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile4.png"/>
          
          <p>
             Why does he start and <span class="neg">leap</span>amain,<br/>
@@ -338,7 +366,7 @@
          
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile5.png"/>
+         <img alt="Scour the sandy Libyan plain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile5.png"/>
          
          <p>
             And scour the sandy <span class="location">Libyan plain</span><br/>
@@ -347,7 +375,7 @@
          
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile6.png"/>
+         <img alt="Like one who wants to catch a train" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile6.png"/>
          
          <p>
             Like one that wants to catch a train,<br/>
@@ -356,7 +384,7 @@
          
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile7.png"/>
+         <img alt="Or wrestles with internal pain" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile7.png"/>
          
          <p>
             Or <span class="neg">wrestles</span> with internal pain?<br/>
@@ -364,7 +392,7 @@
          [228]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile8.png"/>
+         <img alt="Egg-cup" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile8.png"/>
          
          <p>
             Because he <span class="neg">finds</span> his egg contain—<br/>
@@ -378,7 +406,7 @@
          
          
          <h2 id="mammoth"><a href="#top"><span class="beast">The Frozen Mammoth</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth1.png"/>
+         <img alt="The Mammoth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth1.png"/>
          
          <p>
             <span class="beast">This Creature</span>, though <span class="neg">rare, is still <span class="neg">found</span> to the <span class="location">East</span></span><br/>
@@ -387,7 +415,7 @@
          [244]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth2.png"/>
+         <img alt="Melting" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth2.png"/>
          
          <p>
             It is <span class="neg">known</span> to the whole of that <span class="person">primitive group</span><br/>
@@ -398,7 +426,7 @@
          [245]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth3.png"/>
+         <img alt="Deflated mammoth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth3.png"/>
          
          <p>
             If the <span class="beast">skin</span> be but <span class="neg">punctured</span> before it is <span class="neg">boiled</span>,<br/>
@@ -407,7 +435,7 @@
          [246]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth4.png"/>
+         <img alt="The dainty is unknown" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/mammoth4.png"/>
          
          <p>
             And hence (on account of the size of the <span class="beast">beast</span>)<br/>
@@ -420,7 +448,7 @@
          
          
          <h2 id="llama"><a href="#top">The <span class="beast">Llama</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama1.png"/>
+         <img alt="The Llama" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama1.png"/>
          
          <p>
             The <span class="beast">Llama</span> is a woolly sort of fleecy hairy goat,<br/>
@@ -430,7 +458,7 @@
          [239]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama2.png"/>
+         <img alt="Find it in the atlas" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama2.png"/>
          
          <p>
             And I know the place he lives in (or at least—I think I do)<br/>
@@ -440,7 +468,7 @@
          [240]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama3.png"/>
+         <img alt="Lord of Turkestan" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama3.png"/>
          
          <p>
             The <span class="beast">Llama</span> of the Pampasses you never should confound<br/>
@@ -450,7 +478,7 @@
          [241]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama4.png"/>
+         <img alt="The ruminant" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/llama4.png"/>
          
          <p>
             For the former is a beautiful and valuable beast,<br/>
@@ -466,7 +494,7 @@
          
          
          <h2 id="microbe"><a href="#top">The Microbe</a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe1.png"/>
+         <img alt="The Microbe" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe1.png"/>
          
          <p>
             The <span class="beast">Microbe</span> is so very small<br/>
@@ -481,7 +509,7 @@
          [248]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe2.png"/>
+         <img alt="The microbe larger" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe2.png"/>
          
          <p>
             On each of which a pattern stands,<br/>
@@ -493,13 +521,13 @@
             Oh! let us never, never doubt<br/>
             What nobody is sure about!<br/>
             </p>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe3.png"/>
+         <img alt="The scientist" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe3.png"/>
          
          
          
          
          <h2 id="porcupine"><a href="#top">The Porcupine</a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine.png"/>
+         <img alt="Porcupine" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine.png"/>
          
          <p>
             What! would you <span class="neg">slap</span> the Porcupine?<br/>
@@ -510,7 +538,7 @@
          [218]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine2.png"/>
+         <img alt="To strike the creature" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine2.png"/>
          
          <p>
             To strike the meanest and the least<br/>
@@ -519,7 +547,7 @@
          [219]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine3.png"/>
+         <img alt="With prickes on its skin" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/porcupine3.png"/>
          
          <p>
             How much more bad to beat a beast<br/>
@@ -537,7 +565,7 @@
          
          
          <h2 id="python"><a href="#top"><span class="beast">The Python</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/menwithpython.png"/>
+         <img alt="The Python" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/menwithpython.png"/>
          
          <p>
             A <span class="beast">Python</span><span class="person"> I</span> should not <span class="neg">advise</span>,—<br/>
@@ -547,7 +575,7 @@
          [212]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythoninglass.png"/>
+         <img alt="Subject it to music" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythoninglass.png"/>
          
          <p>
             However, if <span class="person">you</span> feel inclined<br/>
@@ -558,13 +586,13 @@
          [213]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonwhip.png"/>
+         <img alt="Flies into a rage" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonwhip.png"/>
          
          <p>
             And when <span class="beast">it </span><span class="neg">flies into a <span class="neg">rage</span></span><br/>
             <span class="neg">Chastise</span><span class="beast"> it,</span> most severely.<br/>
             </p>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonmountain.png"/>
+         <img alt="An aunt in Yucatan" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonmountain.png"/>
          [214]<br/><br/>
          
          
@@ -579,7 +607,7 @@
          [215]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonliving.png"/>
+         <img alt="The snake" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/pythonliving.png"/>
          
          <p>
             The <span class="beast">Snake</span> is <span class="neg">living</span> yet.<br/>
@@ -590,7 +618,7 @@
          
          
          <h2 id="scorpion"><a href="#top"><span class="beast">The Scorpion</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/Scorpion.PNG"/>
+         <img alt="Scorpion" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/Scorpion.PNG"/>
          
          <p>
             <span class="neg">Out of bed</span><br/>
@@ -605,7 +633,7 @@
          
          
          <h2 id="viper"><a href="#top"><span class="beast">The Viper</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper1.PNG"/>
+         <img alt="The Viper" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper1.PNG"/>
          
          <p>
             Yet another <span class="neg">great</span> truth <span class="person">I</span><span class="neg"> record</span> in my verse,<br/>
@@ -615,7 +643,7 @@
          [235]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper2.PNG"/>
+         <img alt="Procuring two vipers" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper2.PNG"/>
          
          <p>
             By <span class="neg">procuring </span><span class="beast">two Vipers,</span> and <span class="neg">letting them <span class="neg">bite;</span></span><br/>
@@ -623,7 +651,7 @@
          [236]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper3.PNG"/>
+         <img alt="A fright" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper3.PNG"/>
          
          <p>
             With the first<span class="person"> you</span> are only the worse for a <span class="neg">fright</span>,<br/>
@@ -631,7 +659,7 @@
          [237]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper4.PNG"/>
+         <img alt="After the second" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheViper4.PNG"/>
          
          <p>
             But after the second<span class="person"> you</span><span class="neg"> die.</span><br/>
@@ -642,7 +670,7 @@
          
          
          <h2 id="vulture"><a href="#top"><span class="beast">The Vulture</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture1.PNG"/>
+         <img alt="The Vulture" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture1.PNG"/>
          
          <p>
             <span class="beast">The Vulture</span><span class="neg"> eats</span> between <span class="beast">his </span>meals,<br/>
@@ -651,7 +679,7 @@
          [230]<br/><br/>
          
          
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture2.PNG"/>
+         <img alt="As well as you or I" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/TheVulture2.PNG"/>
          
          <p>
             <span class="beast">He</span><span class="neg"><span class="neg"> very, very rarely </span><span class="neg">feels</span></span><br/>
@@ -671,7 +699,7 @@
          
          
          <h2 id="mutton"><a href="#top"><span class="beast">The Welsh Mutton</span></a></h2>
-         <img alt="temp" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/WelshMutton.png"/>
+         <img alt="The Cambrian Welsh" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/WelshMutton.png"/>
          
          <p>
             <span class="beast">The Cambrian Welsh or Mountain Sheep</span><br/>
