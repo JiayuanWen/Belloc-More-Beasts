@@ -57,8 +57,11 @@
                 </nav>
                 
                 <!-- Title -->
-                <h1 id="top"><xsl:apply-templates select="$poemColl//bookTitle"/></h1>
-                
+                <!-- <h1 id="top"><xsl:apply-templates select="$poemColl//bookTitle"/></h1> -->
+                <pre>
+         
+                </pre>
+                    
                 <!-- Table of Contents (Further implementation at ToC rules below) -->
                 <section id="toc">
                     <h2 id="toc">Table of Contents</h2>
@@ -71,6 +74,19 @@
                             
                         </xsl:apply-templates>
                     </table>
+                </section>
+                
+                <!-- Color legend -->
+                <section id="legend">
+                    <h3>Legends</h3>
+                    <p id="beast-legend">Blue indicate Beasts/Animals</p>
+                    <p id="person-legend">Orange indicate People</p>
+                    <p id="location-legend">Purple indicate Location</p>
+                    <p id="positive-legend">Green indicate anything positive</p>
+                    <p id="negative-legend">Red indicate anything negative</p>
+                    
+                    <pre>
+                    </pre>
                 </section>
                 
                 <!-- Text view -->
