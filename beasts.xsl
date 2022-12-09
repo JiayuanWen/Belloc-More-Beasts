@@ -137,13 +137,13 @@
         </span>
     </xsl:template>
     
-    <xsl:template match="emot | act | desc | event[@con='pos']">
+    <xsl:template match="(emot | act | desc | event)[@con='pos']">
         <span class="pos">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     
-    <xsl:template match="emot | act | desc | event[@con='neg']">
+    <xsl:template match="(emot | act | desc | event)[@con='neg']">
         <span class="neg">
             <xsl:apply-templates/>
         </span>
