@@ -238,7 +238,12 @@ section.textAnalysis figure figcaption {flex:1;
 ;}
 
 span.beast {color:blue;}
+#beast-legend {color:blue;}
 span.person {color:orange;}
+#person-legend {color:orange;}
 span.location {color:purple;}
+#location-legend {color:purple;}
 span.pos {color:green;}
+#positive-legend {color:green;}
 span.neg {color:red;}
+#negative-legend {color:red;}
