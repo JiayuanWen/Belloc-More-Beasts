@@ -11,7 +11,7 @@
             <img alt="The Crocodile" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/crocodile.png"/>
         </fig>
         <lg>
-            <l n="1">Whatever our faults, we can always <act>engage</act></l>
+            <l n="1">Whatever our <desc con="neg">faults,</desc><person role="everyone"> we</person> can always <act>engage</act></l>
             <l n="2">That no fancy or fable shall sully our page,</l>
             <l n="3">So <act>take note</act> of what follows, I <act>beg</act>.</l>
             <l n="4">This creature so grand and august in its age,</l>
