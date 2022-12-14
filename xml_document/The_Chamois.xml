@@ -10,7 +10,7 @@
         <lg>
             <l n="1"><beast>The Chamois</beast><act> inhabits</act></l>
             <l n="2"><location>Lucerne</location>, where his habits</l>
-            <l n="3">(Though why I <act>have not an idea-r</act>)</l>
+            <l n="3">(Though why <person role="narrator">I </person><act>have not an idea-r</act>)</l>
             <l n="4">Give <beast gender="m">him</beast> sudden short <act>spasms</act></l>
             <l n="5"><desc>On the brink of deep chasms,</desc></l>
             <l n="6">And he <act>lives</act> in <desc>perpetual </desc><emot con="neg">fear</emot>.</l>

@@ -5,10 +5,10 @@
     <pg ref="intro">
         <title>INTRODUCTION</title>
         <lg>
-            <l n="1">The <person>parents</person> of the <desc>learned </desc><person>child</person></l>
-            <l n="2"><person>(His father</person> and <person>his mother)</person></l>
+            <l n="1">The <person role="character" count="multiple">parents</person> of the <desc con="pos">learned </desc><person role="character" gender="m" count="single">child</person></l>
+            <l n="2"><person role="character" gender="m" count="single">(His father</person> and <person role="character" gender="f" count="single">his mother)</person></l>
             <l n="3">Were <desc con="neg">utterly aghast</desc> to <act>note</act></l>
-            <l n="4">The facts<person> he</person> would <act>at random quote</act></l>
+            <l n="4">The facts<person role="character" gender="m" count="single"> he</person> would <act>at random quote</act></l>
             <l n="5">On <beast>creatures</beast><desc> curious, rare and wild;</desc></l>
             <l n="6">And <act>wondering, asked each other:</act></l>
         </lg>
@@ -21,14 +21,14 @@
             />
         </fig>
         <lg>
-            <l n="1">"An <desc>idle little</desc><person> child</person> like this,</l>
-            <l n="2">How is it that <person>he </person><act>knows</act></l>
+            <l n="1">"An <desc>idle little</desc><person role="character" gender="m" count="single"> child</person> like this,</l>
+            <l n="2">How is it that <person role="character" gender="m" count="single">he </person><act>knows</act></l>
             <l n="3">What years of <act>close analysis</act></l>
             <l n="4">Are <desc>powerless to <act>disclose?</act></desc></l>
         </lg>
         <lg>
-            <l n="1"><desc><person>Our</person> brains are trained, our books are big,</desc></l>
-            <l n="2">And yet <person>we </person><act con="neg">always fail</act></l>
+            <l n="1"><desc>Our brains are trained, our books are big,</desc></l>
+            <l n="2">And yet <person role="everyone" count="multiple">we </person><act con="neg">always fail</act></l>
         </lg>
         <pgNum n="207">[207]</pgNum>
     </pg>
@@ -72,7 +72,7 @@
             <l n="4">Or <act>pumped</act> the <beast>Wanderoo.</beast></l>
         </lg>
         <lg>
-            <l n="1">Or even by an <act><desc>artful </desc>plan</act></l>
+            <l n="1">Or even by an <act><desc con="pos">artful </desc>plan</act></l>
             <l n="2"><act>Deceived our <desc>watchful</desc> eyes,</act></l>
             <l n="3">And <act>interviewed</act> the <beast>Pelican,</beast></l>
             <l n="4">Who is <desc con="pos">extremely wise."</desc></l>

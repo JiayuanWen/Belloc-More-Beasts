@@ -7,14 +7,14 @@
             <img alt="The Microbe" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe1.png"/>
         </fig>
         <lg>
-            <l n="1">The <beast>Microbe</beast> is so very small</l>
-            <l n="2">You cannot make him out at all,</l>
-            <l n="3">But many sanguine people hope</l>
-            <l n="4">To see him through a microscope.</l>
-            <l n="5">His jointed tongue that lies beneath</l>
-            <l n="6">A hundred curious rows of teeth;</l>
-            <l n="7">His seven tufted tails with lots</l>
-            <l n="8">Of lovely pink and purple spots,</l>
+            <l n="1">The <beast>Microbe</beast> is <desc>so very small</desc></l>
+            <l n="2"><person role="reader" count="single">You</person> cannot <act>make <beast>him</beast> out</act><desc> at all,</desc></l>
+            <l n="3">But many <desc con="pos">sanguine </desc><person role="character" count="multiple">people </person><act con="pos">hope</act></l>
+            <l n="4">To <act>see </act><beast>him </beast><desc>through a microscope.</desc></l>
+            <l n="5">His <desc>jointed tongue that lies beneath</desc></l>
+            <l n="6">A <num n="100">hundred</num><desc> curious rows of teeth;</desc></l>
+            <l n="7">His <num n="7">seven</num><desc> tufted tails with lots</desc></l>
+            <l n="8">Of <desc>lovely pink and purple spots,</desc></l>
         </lg>
         <pgNum n="248">[248]</pgNum>
     </pg>
@@ -23,14 +23,14 @@
             <img alt="The microbe larger" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe2.png"/>
         </fig>
         <lg>
-            <l n="1">On each of which a pattern stands,</l>
-            <l n="2">Composed of forty separate bands;</l>
-            <l n="3">His eyebrows of a tender green;</l>
-            <l n="4">All these have never yet been seen—</l>
-            <l n="5">But Scientists, who ought to know,</l>
-            <l n="6">Assure us that they must be so. . . .</l>
-            <l n="7">Oh! let us never, never doubt</l>
-            <l n="8">What nobody is sure about!</l>
+            <l n="1"><desc>On each of which a pattern <act>stands,</act></desc></l>
+            <l n="2"><desc>Composed of <num n="40">forty</num> separate bands;</desc></l>
+            <l n="3"><desc>His eyebrows of a tender green;</desc></l>
+            <l n="4">All these have <desc>never yet been <act>seen—</act></desc></l>
+            <l n="5">But <person role="character" count="multiple">Scientists,</person> who <desc>ought to <act>know,</act></desc></l>
+            <l n="6"><act>Assure</act><person role="everyone" count="multiple"> us</person> that they <desc>must be so. . . .</desc></l>
+            <l n="7">Oh! let <person role="everyone" count="multiple">us</person><desc> never, never </desc><act>doubt</act></l>
+            <l n="8">What <person role="everyone" count="multiple">nobody</person> is <desc>sure about!</desc></l>
         </lg>
         <fig>
             <img alt="The scientist" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/microbe3.png"/>

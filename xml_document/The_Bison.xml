@@ -8,7 +8,7 @@
             <img alt="The Bison" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison1.png"/>
         </fig>
         <lg>
-            <l n="1"><beast>The Bison</beast> is <desc>vain,</desc> and (<person fstName="Hilaire" lstName="Belloc" gender="m" role="narrator">I </person><act>write it</act><desc> with pain)</desc></l>
+            <l n="1"><beast>The Bison</beast> is <desc con="neg">vain,</desc> and (<person role="narrator">I </person><act>write it</act><desc> with pain)</desc></l>
             <l n="2">The Door-mat you <act>see </act><desc>on his head</desc></l>
         </lg>
         <pgNum n="232">[232]</pgNum>
@@ -18,8 +18,8 @@
             <img alt="The opulent growth" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/bison2.png"/>
         </fig>
         <lg>
-            <l n="1">Is not, as some <desc>learned </desc>professors <act>maintain,</act></l>
-            <l n="2">The <desc>opulent </desc><act>growth</act> of a <beast>genius'</beast> brain;</l>
+            <l n="1">Is not, as some <desc con="pos">learned </desc>professors <act>maintain,</act></l>
+            <l n="2">The <desc con="pos">opulent </desc><act>growth</act> of a <beast>genius'</beast> brain;</l>
         </lg>
         <pgNum n="233">[233]</pgNum>
     </pg>
