@@ -216,6 +216,23 @@ img.dahlia {
     max-width: 500px;
     width: 60%;
 }
+
+/* Github repo links page */
+#github-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    line-height: 5px;
+    
+}
+#github-links > a {
+    text-decoration: underline;
+}
+#github-links > a:hover {
+    color: #C8AC80;
+    display: block;
+}
  
 /* This is some CSS code specifically for Text Analysis */
 section.textAnalysis  {
