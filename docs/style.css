@@ -181,13 +181,8 @@ div.button {
   font-size: 16px;
   font-family: georgia;
   cursor: grab;
-<<<<<<< HEAD
-  width: 75px;
   display: inline;
-=======
-  width: 150px;
   display: inline-block;
->>>>>>> d6b1f719519677cbf7fab27f797fb88dfefd79da
  }
 /* This means: style ANY element that as an @class set to button, as in */
 /* <li class="button"> or <p class="button"> or <div class="button">. */
@@ -237,6 +232,7 @@ section.textAnalysis figure img {flex:5;
 section.textAnalysis figure figcaption {flex:1;
 ;}
 
+/* Fulltext color codings */
 span.beast {color:blue;}
 #beast-legend {color:blue;}
 span.person {color:orange;}
@@ -247,3 +243,6 @@ span.pos {color:green;}
 #positive-legend {color:green;}
 span.neg {color:red;}
 #negative-legend {color:red;}
+
+/* Exceptions for Poem titles */
+#fulltext > h2 > a > span{color: #000000;}
