@@ -169,18 +169,12 @@ ul {
     font-size: 30px;
 }
 
+/*  
 section.Gallery figure img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
-section.Gallery figure  img {
-    display: inline-block;
-    margin: 25px 10px;
-    width: 55%;
-    border: 5px solid #555;
-    float: left;
-    padding: 2vw;
-}
+ */
 
 section.Resume
 div {
@@ -256,6 +250,34 @@ img.dahlia {
     align-items: center;
     padding-top: 150px;
     padding-right: 1500px;
+}
+
+/* Biography page */
+#bio-gallery {
+    margin-left: 0px;
+}
+
+#bio-title {
+    text-align: center;
+    padding-top: 45px;
+}
+
+section.Gallery figure  img {
+    display: inline-block;
+    margin: 25px 10px;
+    width: 20%;
+    border: 5px solid #555;
+    float: left;
+    padding: 2vw;
+}
+
+#bio-text {
+    padding-left: 1000px;
+    margin-right: 84px;
+}
+
+#bio-copyright {
+    padding-top: 300px;
 }
  
 /* This is some CSS code specifically for Text Analysis */
