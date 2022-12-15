@@ -15,6 +15,7 @@ XML/relaxNG/XSLT encoding and survey project on More Beasts (For Worse Children)
 <a href="https://www.gutenberg.org/cache/epub/27176/pg27176-images.html"> Book on Project Gutenberg </a>
 </p>
 
+<!---
 ## Contributer:
 
 [Jiayuan Wen](https://github.com/JiayuanWen):
@@ -36,6 +37,6 @@ XML/relaxNG/XSLT encoding and survey project on More Beasts (For Worse Children)
 * contribution 1
 * contribution 2
 <hr/>
-
+--->
 
 
