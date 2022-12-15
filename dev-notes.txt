@@ -1,0 +1,5 @@
+To commit all changes at once:
+git pull; git add .; git commit -m "Commit message"; git push
+
+To commit specific files without knowing exact path:
+git pull; git add $(find ./ -name "*.css"); git commit -m "Commit message"; git push
