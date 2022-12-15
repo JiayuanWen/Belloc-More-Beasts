@@ -22,12 +22,21 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
 #top {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     
     padding-top: 40px;
+}
+
+#citation-link > a {
+    color: #000d81;
+    text-decoration: underline;
+}
+#citation-link > a:hover {
+    color: #C8AC80;
 }
 
 /* Navbar */
@@ -152,7 +161,6 @@ img.red.JPG {
     height:auto;
 }
  
-
 ul {
     list-style-type: none;
     padding-top:5em;
@@ -163,7 +171,6 @@ ul {
     font-size: 30px;
 }
 
- 
 section.Gallery figure img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -177,8 +184,6 @@ section.Gallery figure  img {
     padding: 2vw;
 }
 
-
-
 section.Resume
 div {
     width: 100%;
@@ -186,8 +191,7 @@ div {
     padding:5vw;
     background-color: peachpuff
 }
-      
-      
+          
  section.Gallery  {
     width: 80%;
     display: block;
@@ -215,6 +219,20 @@ section.Gallery p.analysis{
 img.dahlia {
     max-width: 500px;
     width: 60%;
+}
+
+#gallery-title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Gallery > h2 {
+    text-align: center;
+}
+
+.Gallery {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Github repo links page */
