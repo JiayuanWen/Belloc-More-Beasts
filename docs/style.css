@@ -233,6 +233,14 @@ img.dahlia {
     color: #C8AC80;
     display: block;
 }
+
+#copyright-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 1500px;
+}
  
 /* This is some CSS code specifically for Text Analysis */
 section.textAnalysis  {
