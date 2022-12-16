@@ -271,6 +271,11 @@ section.Gallery figure  img {
     padding: 2vw;
 }
 
+/* About Us page */
+#reflection-title {
+	text-align: center;
+	padding-top: 30px;
+
 #bio-text {
     padding-left: 1000px;
     margin-right: 84px;
