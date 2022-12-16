@@ -5,10 +5,14 @@
     <pg ref="intro">
         <title>INTRODUCTION</title>
         <lg>
-            <l n="1">The <person role="character" count="multiple">parents</person> of the <desc con="pos">learned </desc><person role="character" gender="m" count="single">child</person></l>
-            <l n="2"><person role="character" gender="m" count="single">(His father</person> and <person role="character" gender="f" count="single">his mother)</person></l>
+            <l n="1">The <person role="character" count="multiple">parents</person> of the <desc
+                    con="pos">learned </desc><person role="character" gender="m" count="single"
+                    >child</person></l>
+            <l n="2"><person role="character" gender="m" count="single">(His father</person> and
+                    <person role="character" gender="f" count="single">his mother)</person></l>
             <l n="3">Were <desc con="neg">utterly aghast</desc> to <act>note</act></l>
-            <l n="4">The facts<person role="character" gender="m" count="single"> he</person> would <act>at random quote</act></l>
+            <l n="4">The facts<person role="character" gender="m" count="single"> he</person> would
+                    <act>at random quote</act></l>
             <l n="5">On <beast>creatures</beast><desc> curious, rare and wild;</desc></l>
             <l n="6">And <act>wondering, asked each other:</act></l>
         </lg>
@@ -21,14 +25,17 @@
             />
         </fig>
         <lg>
-            <l n="1">"An <desc>idle little</desc><person role="character" gender="m" count="single"> child</person> like this,</l>
-            <l n="2">How is it that <person role="character" gender="m" count="single">he </person><act>knows</act></l>
+            <l n="1">"An <desc>idle little</desc><person role="character" gender="m" count="single">
+                    child</person> like this,</l>
+            <l n="2">How is it that <person role="character" gender="m" count="single">he
+                    </person><act>knows</act></l>
             <l n="3">What years of <act>close analysis</act></l>
             <l n="4">Are <desc>powerless to <act>disclose?</act></desc></l>
         </lg>
         <lg>
             <l n="1"><desc>Our brains are trained, our books are big,</desc></l>
-            <l n="2">And yet <person role="everyone" count="multiple">we </person><act con="neg">always fail</act></l>
+            <l n="2">And yet <person role="everyone" count="multiple">we </person><act con="neg"
+                    >always fail</act></l>
         </lg>
         <pgNum n="207">[207]</pgNum>
     </pg>
@@ -43,7 +50,8 @@
             <l n="2"><desc>Is <act>born</act> without a tail.</desc></l>
         </lg>
         <lg>
-            <l n="1">Or why the <beast>Wanderoo<noteref letter="A">[A]</noteref></beast> should<act> rant</act></l>
+            <l n="1">Or why the <beast>Wanderoo<noteref letter="A">[A]</noteref></beast> should<act>
+                    rant</act></l>
             <l n="2"><desc>In wild, unmeaning rhymes,</desc></l>
         </lg>
         <pgNum n="208">[208]</pgNum>
@@ -81,7 +89,8 @@
     </pg>
     <pg ref="intro">
         <fig>
-            <img alt="This little book" src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/book.png"/>
+            <img alt="This little book"
+                src="https://github.com/JiayuanWen/Belloc-More-Beasts/blob/main/pics/book.png"/>
         </fig>
         <lg>
             <l n="1">"Oh! no," <act>said <beast>he,</beast><desc> in humble tone,</desc></act></l>
@@ -90,7 +99,7 @@
             <l n="4">But for this <desc>little</desc> book."</l>
         </lg>
         <pgNum n="211">[211]</pgNum>
+        <foot>FOOTNOTE: <def><noteref letter="A">[A]</noteref> Sometimes called the "Lion-tailed or
+                tufted Baboon of Ceylon."</def></foot>
     </pg>
-    <foot>FOOTNOTE: <def><noteref letter="A">[A]</noteref> Sometimes called the "Lion-tailed or
-            tufted Baboon of Ceylon."</def></foot>
 </root>

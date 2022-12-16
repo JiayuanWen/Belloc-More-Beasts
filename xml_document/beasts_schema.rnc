@@ -49,7 +49,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 #Document schema
 
     start = root
-    root = element root { ((bookCover & bookTitleAlt & text), pg+, foot?) | (pg+) }
+    root = element root { ((bookCover & bookTitleAlt & text), pg+) | (pg+) }
 
     bookCover = element bookCover {fig, text}
   
@@ -60,7 +60,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
         (ref, (bookTitle & author+ & publisher & dedicate & fig*), pgNum?) |
         
         #This one will be for poem pages.
-        (ref, title?, (lg+ & fig*), pgNum?) 
+        (ref, title?, (lg+ & fig*), pgNum?, foot?) 
     }
    
     #For title page(s)

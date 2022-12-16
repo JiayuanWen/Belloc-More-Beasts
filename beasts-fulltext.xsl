@@ -165,4 +165,10 @@
         </span>
     </xsl:template>
     
+    <xsl:template match="noteref">
+        <span class="foot">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
 </xsl:stylesheet>
