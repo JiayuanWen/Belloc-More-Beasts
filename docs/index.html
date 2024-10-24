@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head> 
-
         <title>Home - More Beasts (For Worse Children)</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css"></link>
+        <script type="text/javascript" src="stuff.js">//</script>
+        
+        <script type="text/javascript">
+        window.onload = function() {
+            alert('Welcome to the More Beasts website!');
+        };
+    </script>
+        <style>
+        .clickable {
+            color: blue; /* Color to differentiate the span */
+            text-decoration: underline; /* Underline to indicate it's clickable */
+            cursor: pointer; /* Change cursor to pointer */
+        }
+    </style>
     </head>
     <body>
-        <h1 id="title-index">More Beasts (For Worse Children)</h1>
+        <h1 id="title-index" onclick="alert('Stuff');">More Beasts (For Worse Children)</h1>
         <nav id="menu">
             <a href="index.html"><div class="button">Home</div></a>
             <a href="fulltext.html"><div class="button">Fulltext</div></a>
-			<a href="analysis.html"><div class="button">Analysis</div></a>
+            <a href="analysis.html"><div class="button">Analysis</div></a>
             <a href="gallery.html"><div class="button">Gallery</div></a>
             <a href="bio.html"><div class="button">Biography</div></a>
-			<a href="about.html"><div class="button">About</div></a>
+            <a href="about.html"><div class="button">About</div></a>
             <a href="github_links.html"><div class="button">GitHub <img alt="github icon" src="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" width="15"/></div></a>
             <a href="https://www.gutenberg.org/cache/epub/27176/pg27176-images.html" target="_blank"><div class="button">Project Gutenberg</div></a>
         </nav>
+        
         <section id="Home"> 
             <figure>
                 <img src="pics/morebeast.png" alt="otherbeast"/>
@@ -26,13 +40,15 @@
         </section>
         
         <section id="site-desc"> 
-            <p>This site surveys Hilaire Belloc's picture book More Beasts (For Worse Children) for interesting patterns and word usage.</p>
+            <p>This site surveys Hilaire Belloc's picture book More Beasts (For Worse Children) for interesting patterns and word usage. 
+                Here’s a <span class="clickable" onclick="alert('You clicked the clickable part!')">clickable part</span> of this paragraph. I hope I did this correctly.</p>
         </section>
         
-        <p id="credit"> Author: Hilaire Belloc <br/>    
+        <p id="credit" style="color:red;"> Author: Hilaire Belloc <br/>    
             Illustrator: Lord Ian Basil Gawaine Temple, L Blackwood <br/>
             Website Developers: Jiayuan Wen, Myeisha Frost, Jermaine Shields, Graydon Kupfer
         </p>
+        
         <section id="copyright">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="GNU Public License e" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
         </section>
